@@ -1,0 +1,32 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Content/Models/Clock.uasset",
+				"C:/Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Content/Textures/Wood/raw_plank_wall_ao_2k.uasset",
+				"C:/Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Content/Textures/Wood/raw_plank_wall_arm_2k.uasset",
+				"C:/Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Content/Textures/Wood/raw_plank_wall_diff_2k.uasset",
+				"C:/Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Content/Textures/Wood/raw_plank_wall_disp_2k.uasset",
+				"C:/Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Content/Textures/Wood/raw_plank_wall_nor_dx_2k.uasset",
+				"C:/Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Content/Textures/Wood/raw_plank_wall_nor_gl_2k.uasset",
+				"C:/Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Content/Textures/Wood/raw_plank_wall_rough_2k.uasset",
+				"C:/Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Content/Materials/M_PBR.uasset",
+				"C:/Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Content/Materials/M_Texture.uasset",
+				"C:/Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Content/Materials/_M_PBR.uasset",
+				"C:/Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Content/Materials/_M_Texture.uasset",
+				"C:/Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Content/Materials/_M_Glass.uasset",
+				"C:/Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Content/Main.umap",
+				"C:/Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Content/Materials/_M_WineGlass.uasset",
+				"C:/Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Content/Models/ClockFace_Material.uasset",
+				"C:/Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Content/Models/ClockHands_Material.uasset",
+				"C:/Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Content/Models/ClockTableWood_Material.uasset",
+				"C:/Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Content/Materials/M_GoldMetal.uasset",
+				"C:/Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Content/Materials/M_PurpleMetal.uasset",
+				"C:/Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Content/Materials/M_Wood.uasset"
+			]
+		}
+	]
+}
