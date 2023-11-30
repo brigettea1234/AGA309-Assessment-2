@@ -12799,3 +12799,81 @@ Script Stack (0 frames) :
 [2023.11.30-07.13.03:021][205]LogStall: Shutdown...
 [2023.11.30-07.13.03:081][205]LogStall: Shutdown complete.
 [2023.11.30-07.13.03:235][205]LogSlate: Window 'A3 - Unreal Editor' being destroyed
+[2023.11.30-07.13.05:357][205]AssetCheck: New page: Asset Save: multiple assets
+[2023.11.30-07.13.05:363][205]LogContentValidation: Display: Validating /Script/Engine.World /Game/Main.Main
+[2023.11.30-07.13.05:364][205]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Materials/_M_Brass._M_Brass
+[2023.11.30-07.13.05:364][205]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Foliage/Ground/_M_Ground._M_Ground
+[2023.11.30-07.13.05:364][205]LogContentValidation: Display: Validating /Script/Engine.MaterialInstanceConstant /Game/Materials/_M_WallsGreen._M_WallsGreen
+[2023.11.30-07.13.05:364][205]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Foliage/Flowers/Meshes/Flower_01_Mesh.Flower_01_Mesh
+[2023.11.30-07.13.05:364][205]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Foliage/Flowers/Meshes/Flower_02_Mesh.Flower_02_Mesh
+[2023.11.30-07.13.05:364][205]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Foliage/Flowers/Meshes/Flower_03_Mesh.Flower_03_Mesh
+[2023.11.30-07.13.05:364][205]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Foliage/Flowers/Meshes/Flower_04_Mesh.Flower_04_Mesh
+[2023.11.30-07.13.05:364][205]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Foliage/Flowers/Meshes/Flower_05_Mesh.Flower_05_Mesh
+[2023.11.30-07.13.05:364][205]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Foliage/Flowers/Meshes/Flower_06_Mesh.Flower_06_Mesh
+[2023.11.30-07.13.05:364][205]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Foliage/Flowers/Meshes/Flower_07_Mesh.Flower_07_Mesh
+[2023.11.30-07.13.05:364][205]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Foliage/Flowers/Meshes/Flower_08_Mesh.Flower_08_Mesh
+[2023.11.30-07.13.05:364][205]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Foliage/Flowers/Meshes/Flower_09_Mesh.Flower_09_Mesh
+[2023.11.30-07.13.05:364][205]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Foliage/Flowers/Meshes/Flower_10_Mesh.Flower_10_Mesh
+[2023.11.30-07.13.05:364][205]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Foliage/Flowers/Meshes/Flower_11_Mesh.Flower_11_Mesh
+[2023.11.30-07.13.05:365][205]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Foliage/Flowers/Meshes/Flower_12_Mesh.Flower_12_Mesh
+[2023.11.30-07.13.05:365][205]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Foliage/Flowers/Meshes/Flower_13_Mesh.Flower_13_Mesh
+[2023.11.30-07.13.05:365][205]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Foliage/Flowers/Meshes/Flower_14_Mesh.Flower_14_Mesh
+[2023.11.30-07.13.05:365][205]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Foliage/Flowers/Meshes/Flower_15_Mesh.Flower_15_Mesh
+[2023.11.30-07.13.05:365][205]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Foliage/Flowers/Meshes/Flower_16_Mesh.Flower_16_Mesh
+[2023.11.30-07.13.05:365][205]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Foliage/Flowers/Meshes/Flower_17_Mesh.Flower_17_Mesh
+[2023.11.30-07.13.05:365][205]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Foliage/Flowers/Meshes/Flower_18_Mesh.Flower_18_Mesh
+[2023.11.30-07.13.05:365][205]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Foliage/Flowers/Meshes/Flower_19_Mesh.Flower_19_Mesh
+[2023.11.30-07.13.05:365][205]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Foliage/Flowers/Meshes/Flower_20_Mesh.Flower_20_Mesh
+[2023.11.30-07.13.05:365][205]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Foliage/Grass/Meshes/Grass_01_Mesh.Grass_01_Mesh
+[2023.11.30-07.13.05:365][205]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Foliage/Grass/Meshes/Grass_02_Mesh.Grass_02_Mesh
+[2023.11.30-07.13.05:365][205]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Foliage/Grass/Meshes/Grass_03_Mesh.Grass_03_Mesh
+[2023.11.30-07.13.05:365][205]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Foliage/Grass/Meshes/Grass_04_Mesh.Grass_04_Mesh
+[2023.11.30-07.13.05:365][205]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Foliage/Grass/Meshes/Grass_05_Mesh.Grass_05_Mesh
+[2023.11.30-07.13.05:365][205]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Foliage/Grass/Meshes/Grass_06_Mesh.Grass_06_Mesh
+[2023.11.30-07.13.05:365][205]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Foliage/Grass/Meshes/Grass_07_Mesh.Grass_07_Mesh
+[2023.11.30-07.13.05:365][205]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Foliage/Grass/Meshes/Grass_09_Mesh.Grass_09_Mesh
+[2023.11.30-07.13.05:365][205]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Foliage/Grass/Meshes/Grass_10_Mesh.Grass_10_Mesh
+[2023.11.30-07.13.05:365][205]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Foliage/Grass/Meshes/Grass_11_Mesh.Grass_11_Mesh
+[2023.11.30-07.13.05:365][205]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Foliage/Grass/Meshes/Grass_12_Mesh.Grass_12_Mesh
+[2023.11.30-07.13.05:365][205]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Foliage/Grass/Meshes/Grass_13_Mesh.Grass_13_Mesh
+[2023.11.30-07.13.05:365][205]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Foliage/Grass/Meshes/Grass_14_Mesh.Grass_14_Mesh
+[2023.11.30-07.13.05:365][205]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Foliage/Plants/Meshes/ground_01_01.ground_01_01
+[2023.11.30-07.13.05:365][205]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Foliage/Plants/Meshes/ground_02_01.ground_02_01
+[2023.11.30-07.13.05:365][205]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Foliage/Plants/Meshes/ground_03_01.ground_03_01
+[2023.11.30-07.13.05:365][205]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Foliage/Plants/Meshes/ground_04_01.ground_04_01
+[2023.11.30-07.13.05:365][205]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Foliage/Plants/Meshes/ground_05_01.ground_05_01
+[2023.11.30-07.13.05:365][205]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Foliage/Plants/Meshes/ground_06_01.ground_06_01
+[2023.11.30-07.13.05:365][205]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Foliage/Plants/Meshes/ground_07_01.ground_07_01
+[2023.11.30-07.13.05:365][205]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Foliage/Plants/Meshes/ground_08_01.ground_08_01
+[2023.11.30-07.13.05:365][205]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Foliage/Plants/Meshes/ground_09_01.ground_09_01
+[2023.11.30-07.13.05:365][205]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Foliage/Plants/Meshes/ground_10_01.ground_10_01
+[2023.11.30-07.13.05:365][205]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Foliage/Plants/Meshes/ground_11_01.ground_11_01
+[2023.11.30-07.13.05:365][205]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Foliage/Plants/Meshes/ground_13_01.ground_13_01
+[2023.11.30-07.13.05:365][205]LogContentValidation: Display: Validating /Script/Engine.MaterialInstanceConstant /Game/Materials/M_Brass.M_Brass
+[2023.11.30-07.13.05:365][205]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Foliage/Flowers/Materials/MA_Flowers.MA_Flowers
+[2023.11.30-07.13.05:365][205]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Foliage/Grass/Materials/MA_Grass.MA_Grass
+[2023.11.30-07.13.05:365][205]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Foliage/Plants/Materials/MA_GroundPlants.MA_GroundPlants
+[2023.11.30-07.13.05:365][205]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Textures/Noise/Noise.Noise
+[2023.11.30-07.13.05:365][205]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Textures/Noise/NoiseAgain.NoiseAgain
+[2023.11.30-07.13.05:365][205]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Models/Plant_1.Plant_1
+[2023.11.30-07.13.05:365][205]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Models/Plant_2.Plant_2
+[2023.11.30-07.13.05:365][205]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Textures/Noise/WhiteNoiseDithering.WhiteNoiseDithering
+[2023.11.30-07.13.05:371][206]LogAutomationController: Ignoring very large delta of 8.53 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.11.30-07.13.05:372][206]Cmd: QUIT_EDITOR
+[2023.11.30-07.13.05:372][206]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2023.11.30-07.13.05:397][206]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2023.11.30-07.13.05:416][206]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2023.11.30-07.13.05:419][206]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2023.11.30-07.13.05:506][206]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2023.11.30-07.13.05:544][206]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.30-07.13.05:770][206]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2023.11.30-07.13.11:358][206]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2023.11.30-07.13.11:358][206]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2023.11.30-07.13.11:359][206]LogAudio: Display: Audio Device unregistered from world 'Main'.
+[2023.11.30-07.13.11:362][206]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 1
+[2023.11.30-07.13.11:388][206]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2023.11.30-07.13.11:404][206]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2023.11.30-07.13.11:985][206]LogAudio: Display: Audio Device Manager Shutdown
+[2023.11.30-07.13.11:992][206]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2023.11.30-07.13.12:016][206]LogExit: Preparing to exit.
+[2023.11.30-07.13.12:572][206]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
