@@ -1942,3 +1942,1419 @@ LogConfig: CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]] deferred - dummy 
 [2023.12.19-00.27.11:039][148]LogFileHelpers: InternalPromptForCheckoutAndSave took 132 ms
 [2023.12.19-00.27.11:040][148]AssetCheck: New page: Asset Save: M_PBR_Black
 [2023.12.19-00.27.11:040][148]LogContentValidation: Display: Validating /Script/Engine.MaterialInstanceConstant /Game/Materials/M_PBR_Black.M_PBR_Black
+[2023.12.19-00.27.49:029][431]LogContentBrowser: Deferred new asset file creation: _M_Brass1
+[2023.12.19-00.27.49:036][431]LogContentBrowser: Creating deferred item: _M_Brass1
+[2023.12.19-00.27.49:054][432]LogContentBrowser: Renaming the item being created (Deferred Item: _M_Brass1).
+[2023.12.19-00.27.54:572][776]LogContentBrowser: Attempting asset rename: _M_Brass1 -> _M_Silver
+[2023.12.19-00.27.54:576][776]LogContentBrowser: End creating deferred item _M_Brass1
+[2023.12.19-00.27.56:067][855]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Materials/_M_Silver._M_Silver
+[2023.12.19-00.27.56:071][855]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.19-00.27.56:071][855]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.19-00.27.56:180][855]MaterialEditorStats: Texture samplers: 0/16
+[2023.12.19-00.27.56:180][855]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.12.19-00.27.56:180][855]MaterialEditorStats: Shader Count: 0
+[2023.12.19-00.27.56:190][855]LogViewport: Scene viewport resized to 295x337, mode Windowed.
+[2023.12.19-00.27.56:257][857]MaterialEditorStats: Base pass shader: 196 instructions
+[2023.12.19-00.27.56:257][857]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2023.12.19-00.27.56:257][857]MaterialEditorStats: Texture samplers: 2/16
+[2023.12.19-00.27.56:257][857]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.12.19-00.27.56:257][857]MaterialEditorStats: Shader Count: 4
+[2023.12.19-00.31.08:294][292]LogShaderCompilers: Display: ================================================
+[2023.12.19-00.31.08:294][292]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.12.19-00.31.08:294][292]LogShaderCompilers: Display: Total job queries 690, among them cache hits 556 (80.58%)
+[2023.12.19-00.31.08:294][292]LogShaderCompilers: Display: Tracking 134 distinct input hashes that result in 86 distinct outputs (64.18%)
+[2023.12.19-00.31.08:294][292]LogShaderCompilers: Display: RAM used: 2.92 MiB of 1.60 GiB budget. Usage: 0.18%
+[2023.12.19-00.31.08:294][292]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.12.19-00.31.08:294][292]LogShaderCompilers: Display: Shaders Compiled: 51
+[2023.12.19-00.31.08:294][292]LogShaderCompilers: Display: Jobs assigned 51, completed 51 (100%)
+[2023.12.19-00.31.08:294][292]LogShaderCompilers: Display: Average time worker was idle: 166.26 s
+[2023.12.19-00.31.08:294][292]LogShaderCompilers: Display: Time job spent in pending queue: average 0.30 s, longest 1.38 s
+[2023.12.19-00.31.08:294][292]LogShaderCompilers: Display: Job execution time: average 0.66 s, max 2.74 s
+[2023.12.19-00.31.08:294][292]LogShaderCompilers: Display: Job life time (pending + execution): average 0.96 s, max 2.75
+[2023.12.19-00.31.08:294][292]LogShaderCompilers: Display: Shader code size: average 37.46 KiB, min 5.531 KiB, max 62.992 KiB
+[2023.12.19-00.31.08:294][292]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 10.91 s
+[2023.12.19-00.31.08:294][292]LogShaderCompilers: Display: Jobs were issued in 51 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.12.19-00.31.08:294][292]LogShaderCompilers: Display: Average processing rate: 4.68 jobs/sec
+[2023.12.19-00.31.08:294][292]LogShaderCompilers: Display: Total thread time: 11.079 s
+[2023.12.19-00.31.08:294][292]LogShaderCompilers: Display: Total thread preprocess time: 1.119 s
+[2023.12.19-00.31.08:294][292]LogShaderCompilers: Display: Percentage time preprocessing: 10.10%
+[2023.12.19-00.31.08:294][292]LogShaderCompilers: Display: Effective parallelization: 1.02 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2023.12.19-00.31.08:294][292]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.12.19-00.31.08:294][292]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    7 times, average 0.28 sec, max 0.33 sec, min 0.19 sec)
+[2023.12.19-00.31.08:294][292]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    5 times, average 0.28 sec, max 0.29 sec, min 0.26 sec)
+[2023.12.19-00.31.08:294][292]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    7 times, average 0.27 sec, max 0.29 sec, min 0.22 sec)
+[2023.12.19-00.31.08:294][292]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    1 times, average 0.26 sec, max 0.26 sec, min 0.26 sec)
+[2023.12.19-00.31.08:294][292]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    1 times, average 0.26 sec, max 0.26 sec, min 0.26 sec)
+[2023.12.19-00.31.08:294][292]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.12.19-00.31.08:294][292]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 17.73% of total time (compiled    7 times, average 0.28 sec, max 0.33 sec, min 0.19 sec)
+[2023.12.19-00.31.08:294][292]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 16.76% of total time (compiled    7 times, average 0.27 sec, max 0.29 sec, min 0.22 sec)
+[2023.12.19-00.31.08:294][292]LogShaderCompilers: Display:                                                 FLumenCardVS - 12.41% of total time (compiled    5 times, average 0.28 sec, max 0.29 sec, min 0.26 sec)
+[2023.12.19-00.31.08:294][292]LogShaderCompilers: Display:                                             FDebugViewModePS - 8.88% of total time (compiled    5 times, average 0.20 sec, max 0.20 sec, min 0.19 sec)
+[2023.12.19-00.31.08:294][292]LogShaderCompilers: Display:                                             FDebugViewModeVS - 8.45% of total time (compiled    5 times, average 0.19 sec, max 0.20 sec, min 0.18 sec)
+[2023.12.19-00.31.08:294][292]LogShaderCompilers: Display: ================================================
+[2023.12.19-00.31.15:723][700]MaterialEditorStats: Texture samplers: 0/16
+[2023.12.19-00.31.15:723][700]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.12.19-00.31.15:723][700]MaterialEditorStats: Shader Count: 0
+[2023.12.19-00.31.15:751][702]MaterialEditorStats: Base pass shader: 196 instructions
+[2023.12.19-00.31.15:752][702]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2023.12.19-00.31.15:752][702]MaterialEditorStats: Texture samplers: 2/16
+[2023.12.19-00.31.15:752][702]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.12.19-00.31.15:752][702]MaterialEditorStats: Shader Count: 4
+[2023.12.19-00.31.16:824][760]LogSlate: Window 'Color Picker' being destroyed
+[2023.12.19-00.31.16:831][760]MaterialEditorStats: Texture samplers: 0/16
+[2023.12.19-00.31.16:831][760]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.12.19-00.31.16:831][760]MaterialEditorStats: Shader Count: 0
+[2023.12.19-00.31.16:902][763]MaterialEditorStats: Base pass shader: 196 instructions
+[2023.12.19-00.31.16:902][763]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2023.12.19-00.31.16:902][763]MaterialEditorStats: Texture samplers: 2/16
+[2023.12.19-00.31.16:902][763]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.12.19-00.31.16:903][763]MaterialEditorStats: Shader Count: 4
+[2023.12.19-00.31.29:007][ 47]LogSlate: Window 'Save Asset As' being destroyed
+[2023.12.19-00.31.51:397][303]MaterialEditorStats: Texture samplers: 0/16
+[2023.12.19-00.31.51:397][303]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.12.19-00.31.51:397][303]MaterialEditorStats: Shader Count: 0
+[2023.12.19-00.31.51:432][305]MaterialEditorStats: Base pass shader: 196 instructions
+[2023.12.19-00.31.51:432][305]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2023.12.19-00.31.51:432][305]MaterialEditorStats: Texture samplers: 2/16
+[2023.12.19-00.31.51:432][305]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.12.19-00.31.51:432][305]MaterialEditorStats: Shader Count: 4
+[2023.12.19-00.32.10:368][371]MaterialEditorStats: Texture samplers: 0/16
+[2023.12.19-00.32.10:368][371]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.12.19-00.32.10:368][371]MaterialEditorStats: Shader Count: 0
+[2023.12.19-00.32.10:403][373]MaterialEditorStats: Base pass shader: 196 instructions
+[2023.12.19-00.32.10:403][373]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2023.12.19-00.32.10:403][373]MaterialEditorStats: Texture samplers: 2/16
+[2023.12.19-00.32.10:403][373]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.12.19-00.32.10:403][373]MaterialEditorStats: Shader Count: 4
+[2023.12.19-00.32.12:954][511]LogMaterialEditor: Applying material _M_Silver
+[2023.12.19-00.32.13:082][511]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2023.12.19-00.32.13:249][511]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2023.12.19-00.32.37:326][807]LogMaterialEditor: Applying material _M_Silver
+[2023.12.19-00.32.37:446][807]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2023.12.19-00.32.37:617][807]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2023.12.19-00.32.43:525][122]LogMaterialEditor: Applying material _M_Silver
+[2023.12.19-00.32.43:650][122]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2023.12.19-00.32.43:816][122]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2023.12.19-00.32.47:854][335]LogMaterialEditor: Applying material _M_Silver
+[2023.12.19-00.32.47:981][335]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2023.12.19-00.32.48:149][335]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2023.12.19-00.32.57:707][846]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.19-00.32.57:775][846]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Main" FILE="../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Content/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.12.19-00.32.57:795][846]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2023.12.19-00.32.57:806][846]LogSavePackage: Moving output files for package: /Game/Main
+[2023.12.19-00.32.57:807][846]LogSavePackage: Moving '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Main94C14BB8458777FEDDD6759F3092AF86.tmp' to '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Content/Main.umap'
+[2023.12.19-00.32.57:811][846]LogFileHelpers: Saving map 'Main' took 0.037
+[2023.12.19-00.32.57:829][846]LogFileHelpers: InternalPromptForCheckoutAndSave took 121 ms (total: 254 ms)
+[2023.12.19-00.32.57:831][846]AssetCheck: New page: Asset Save: Main
+[2023.12.19-00.32.57:831][846]LogContentValidation: Display: Validating /Script/Engine.World /Game/Main.Main
+[2023.12.19-00.33.11:687][570]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.19-00.33.11:757][570]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Main" FILE="../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Content/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.12.19-00.33.11:775][570]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2023.12.19-00.33.11:786][570]LogSavePackage: Moving output files for package: /Game/Main
+[2023.12.19-00.33.11:787][570]LogSavePackage: Moving '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Main8C05324042908E5033E95AA0A5E6D889.tmp' to '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Content/Main.umap'
+[2023.12.19-00.33.11:791][570]LogFileHelpers: Saving map 'Main' took 0.036
+[2023.12.19-00.33.11:809][570]LogFileHelpers: InternalPromptForCheckoutAndSave took 121 ms (total: 376 ms)
+[2023.12.19-00.33.11:810][570]AssetCheck: New page: Asset Save: Main
+[2023.12.19-00.33.11:810][570]LogContentValidation: Display: Validating /Script/Engine.World /Game/Main.Main
+[2023.12.19-00.33.40:514][ 94]LogViewport: Scene viewport resized to 295x337, mode Windowed.
+[2023.12.19-00.36.13:491][243]LogViewport: Scene viewport resized to 1526x614, mode Windowed.
+[2023.12.19-00.36.13:515][244]LogViewport: Scene viewport resized to 1526x599, mode Windowed.
+[2023.12.19-00.36.13:555][245]LogViewport: Scene viewport resized to 1526x557, mode Windowed.
+[2023.12.19-00.36.13:589][246]LogViewport: Scene viewport resized to 1526x498, mode Windowed.
+[2023.12.19-00.36.13:623][247]LogViewport: Scene viewport resized to 1526x426, mode Windowed.
+[2023.12.19-00.36.13:660][248]LogViewport: Scene viewport resized to 1526x367, mode Windowed.
+[2023.12.19-00.36.13:692][249]LogViewport: Scene viewport resized to 1526x349, mode Windowed.
+[2023.12.19-00.36.13:723][250]LogViewport: Scene viewport resized to 1526x346, mode Windowed.
+[2023.12.19-00.36.13:825][258]LogViewport: Scene viewport resized to 1526x343, mode Windowed.
+[2023.12.19-00.36.13:849][259]LogViewport: Scene viewport resized to 1526x341, mode Windowed.
+[2023.12.19-00.36.13:885][260]LogViewport: Scene viewport resized to 1526x336, mode Windowed.
+[2023.12.19-00.36.13:935][263]LogViewport: Scene viewport resized to 1526x333, mode Windowed.
+[2023.12.19-00.36.13:958][264]LogViewport: Scene viewport resized to 1526x330, mode Windowed.
+[2023.12.19-00.36.13:996][265]LogViewport: Scene viewport resized to 1526x326, mode Windowed.
+[2023.12.19-00.36.21:254][780]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.12.19-00.36.21:329][780]LogContentBrowser: Creating deferred item: NewFolder
+[2023.12.19-00.36.21:344][781]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.12.19-00.36.24:027][975]LogContentBrowser: Attempting asset rename: NewFolder -> GTest_1
+[2023.12.19-00.36.24:028][975]LogContentBrowser: End creating deferred item NewFolder
+[2023.12.19-00.36.35:946][846]LogInterchangeEngine: [Pending] Importing
+[2023.12.19-00.36.35:946][846]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/baleksander...ges/Textures/GTest_1/Texture_BaseColor.png]
+[2023.12.19-00.36.35:947][846]LogInterchangeEngine: [Pending] Importing -  (2)
+[2023.12.19-00.36.35:947][846]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/baleksander...ges/Textures/GTest_1/Texture_Height.png]
+[2023.12.19-00.36.35:948][846]LogInterchangeEngine: [Pending] Importing -  (3)
+[2023.12.19-00.36.35:948][846]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/baleksander...ges/Textures/GTest_1/Texture_Metallic.png]
+[2023.12.19-00.36.35:948][846]LogInterchangeEngine: [Pending] Importing -  (4)
+[2023.12.19-00.36.35:949][846]LogInterchangeEngine: [Pending] Importing -  (5)
+[2023.12.19-00.36.35:964][847]LogInterchangeEngine: [Pending] Importing -  (2)
+[2023.12.19-00.36.35:964][847]LogInterchangeEngine: [Pending] Importing -  (4)
+[2023.12.19-00.36.35:964][847]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/baleksander...ges/Textures/GTest_1/Texture_Normal.png]
+[2023.12.19-00.36.35:964][847]LogInterchangeEngine: [Pending] Importing -  (2)
+[2023.12.19-00.36.35:964][847]LogInterchangeEngine: [Pending] Importing -  (3)
+[2023.12.19-00.36.35:964][847]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/baleksander...ges/Textures/GTest_1/Texture_Roughness.png]
+[2023.12.19-00.36.35:964][847]LogTexture: Display: Building textures: /Game/Textures/GTest_1/Texture_Height.Texture_Height (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 276.062484 MB), EncodeSpeed: Fast
+[2023.12.19-00.36.35:965][847]LogTexture: Display: Building textures: /Game/Textures/GTest_1/Texture_Metallic.Texture_Metallic (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 276.062484 MB), EncodeSpeed: Fast
+[2023.12.19-00.36.35:984][847]LogInterchangeEngine: [Pending] Importing -  (3)
+[2023.12.19-00.36.36:074][849]LogTexture: Display: Building textures: /Game/Textures/GTest_1/Texture_Roughness.Texture_Roughness (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 276.062484 MB), EncodeSpeed: Fast
+[2023.12.19-00.36.36:094][849]LogTexture: Display: Building textures: /Game/Textures/GTest_1/Texture_BaseColor.Texture_BaseColor (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2023.12.19-00.36.36:115][850]LogInterchangeEngine: [Pending] Importing -  (2)
+[2023.12.19-00.36.36:115][850]LogInterchangeEngine: [Pending] Importing -  (1)
+[2023.12.19-00.36.36:132][850]LogInterchangePipeline: Display: Auto-detected normal map
+[2023.12.19-00.36.36:238][851]LogTexture: Display: Building textures: /Game/Textures/GTest_1/Texture_Normal.Texture_Normal (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 302.812488 MB), EncodeSpeed: Fast
+[2023.12.19-00.36.36:263][851]LogInterchangeEngine: [Success] Import Done
+[2023.12.19-00.36.36:281][851]LogInterchangeEngine: [Success] Import Done
+[2023.12.19-00.36.53:025][396]LogSlate: Window 'Save Asset As' being destroyed
+[2023.12.19-00.37.06:063][243]LogViewport: Scene viewport resized to 376x448, mode Windowed.
+[2023.12.19-00.37.39:614][703]MaterialEditorStats: Texture samplers: 0/16
+[2023.12.19-00.37.39:614][703]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2023.12.19-00.37.39:614][703]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.12.19-00.37.39:614][703]MaterialEditorStats: Shader Count: 0
+[2023.12.19-00.37.39:616][703]LogShaderCompilers: Display: ================================================
+[2023.12.19-00.37.39:616][703]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.12.19-00.37.39:616][703]LogShaderCompilers: Display: Total job queries 842, among them cache hits 708 (84.09%)
+[2023.12.19-00.37.39:616][703]LogShaderCompilers: Display: Tracking 134 distinct input hashes that result in 86 distinct outputs (64.18%)
+[2023.12.19-00.37.39:616][703]LogShaderCompilers: Display: RAM used: 2.92 MiB of 1.60 GiB budget. Usage: 0.18%
+[2023.12.19-00.37.39:616][703]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.12.19-00.37.39:617][703]LogShaderCompilers: Display: Shaders Compiled: 51
+[2023.12.19-00.37.39:617][703]LogShaderCompilers: Display: Jobs assigned 51, completed 51 (100%)
+[2023.12.19-00.37.39:617][703]LogShaderCompilers: Display: Average time worker was idle: 166.26 s
+[2023.12.19-00.37.39:617][703]LogShaderCompilers: Display: Time job spent in pending queue: average 0.30 s, longest 1.38 s
+[2023.12.19-00.37.39:617][703]LogShaderCompilers: Display: Job execution time: average 0.66 s, max 2.74 s
+[2023.12.19-00.37.39:617][703]LogShaderCompilers: Display: Job life time (pending + execution): average 0.96 s, max 2.75
+[2023.12.19-00.37.39:617][703]LogShaderCompilers: Display: Shader code size: average 37.46 KiB, min 5.531 KiB, max 62.992 KiB
+[2023.12.19-00.37.39:617][703]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 10.91 s
+[2023.12.19-00.37.39:617][703]LogShaderCompilers: Display: Jobs were issued in 51 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.12.19-00.37.39:617][703]LogShaderCompilers: Display: Average processing rate: 4.68 jobs/sec
+[2023.12.19-00.37.39:617][703]LogShaderCompilers: Display: Total thread time: 11.079 s
+[2023.12.19-00.37.39:617][703]LogShaderCompilers: Display: Total thread preprocess time: 1.119 s
+[2023.12.19-00.37.39:617][703]LogShaderCompilers: Display: Percentage time preprocessing: 10.10%
+[2023.12.19-00.37.39:617][703]LogShaderCompilers: Display: Effective parallelization: 1.02 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2023.12.19-00.37.39:617][703]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.12.19-00.37.39:617][703]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    7 times, average 0.28 sec, max 0.33 sec, min 0.19 sec)
+[2023.12.19-00.37.39:617][703]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    5 times, average 0.28 sec, max 0.29 sec, min 0.26 sec)
+[2023.12.19-00.37.39:617][703]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    7 times, average 0.27 sec, max 0.29 sec, min 0.22 sec)
+[2023.12.19-00.37.39:617][703]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    1 times, average 0.26 sec, max 0.26 sec, min 0.26 sec)
+[2023.12.19-00.37.39:617][703]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    1 times, average 0.26 sec, max 0.26 sec, min 0.26 sec)
+[2023.12.19-00.37.39:617][703]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.12.19-00.37.39:617][703]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 17.73% of total time (compiled    7 times, average 0.28 sec, max 0.33 sec, min 0.19 sec)
+[2023.12.19-00.37.39:617][703]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 16.76% of total time (compiled    7 times, average 0.27 sec, max 0.29 sec, min 0.22 sec)
+[2023.12.19-00.37.39:617][703]LogShaderCompilers: Display:                                                 FLumenCardVS - 12.41% of total time (compiled    5 times, average 0.28 sec, max 0.29 sec, min 0.26 sec)
+[2023.12.19-00.37.39:617][703]LogShaderCompilers: Display:                                             FDebugViewModePS - 8.88% of total time (compiled    5 times, average 0.20 sec, max 0.20 sec, min 0.19 sec)
+[2023.12.19-00.37.39:617][703]LogShaderCompilers: Display:                                             FDebugViewModeVS - 8.45% of total time (compiled    5 times, average 0.19 sec, max 0.20 sec, min 0.18 sec)
+[2023.12.19-00.37.39:617][703]LogShaderCompilers: Display: ================================================
+[2023.12.19-00.37.39:651][704]MaterialEditorStats: Base pass shader: 210 instructions
+[2023.12.19-00.37.39:651][704]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2023.12.19-00.37.39:651][704]MaterialEditorStats: Texture samplers: 6/16
+[2023.12.19-00.37.39:651][704]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2023.12.19-00.37.39:651][704]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.12.19-00.37.39:651][704]MaterialEditorStats: Shader Count: 4
+[2023.12.19-00.37.41:532][814]LogMaterialEditor: Applying material _M_FGramophone
+[2023.12.19-00.37.41:659][814]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2023.12.19-00.37.41:814][814]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2023.12.19-00.37.45:605][ 71]LogViewport: Scene viewport resized to 1526x331, mode Windowed.
+[2023.12.19-00.37.45:632][ 72]LogViewport: Scene viewport resized to 1526x364, mode Windowed.
+[2023.12.19-00.37.45:664][ 73]LogViewport: Scene viewport resized to 1526x411, mode Windowed.
+[2023.12.19-00.37.45:703][ 74]LogViewport: Scene viewport resized to 1526x452, mode Windowed.
+[2023.12.19-00.37.45:736][ 75]LogViewport: Scene viewport resized to 1526x500, mode Windowed.
+[2023.12.19-00.37.45:766][ 76]LogViewport: Scene viewport resized to 1526x558, mode Windowed.
+[2023.12.19-00.37.45:797][ 77]LogViewport: Scene viewport resized to 1526x589, mode Windowed.
+[2023.12.19-00.37.45:834][ 78]LogViewport: Scene viewport resized to 1526x612, mode Windowed.
+[2023.12.19-00.37.45:868][ 79]LogViewport: Scene viewport resized to 1526x624, mode Windowed.
+[2023.12.19-00.37.45:901][ 80]LogViewport: Scene viewport resized to 1526x630, mode Windowed.
+[2023.12.19-00.37.45:931][ 81]LogViewport: Scene viewport resized to 1526x633, mode Windowed.
+[2023.12.19-00.37.45:963][ 82]LogViewport: Scene viewport resized to 1526x636, mode Windowed.
+[2023.12.19-00.37.45:993][ 83]LogViewport: Scene viewport resized to 1526x638, mode Windowed.
+[2023.12.19-00.37.46:022][ 84]LogViewport: Scene viewport resized to 1526x642, mode Windowed.
+[2023.12.19-00.37.46:049][ 85]LogViewport: Scene viewport resized to 1526x644, mode Windowed.
+[2023.12.19-00.37.46:076][ 86]LogViewport: Scene viewport resized to 1526x645, mode Windowed.
+[2023.12.19-00.37.46:115][ 88]LogViewport: Scene viewport resized to 1526x646, mode Windowed.
+[2023.12.19-00.37.46:139][ 89]LogViewport: Scene viewport resized to 1526x647, mode Windowed.
+[2023.12.19-00.37.46:168][ 90]LogViewport: Scene viewport resized to 1526x649, mode Windowed.
+[2023.12.19-00.38.00:563][992]MaterialEditorStats: Texture samplers: 0/16
+[2023.12.19-00.38.00:564][992]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2023.12.19-00.38.00:564][992]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.12.19-00.38.00:564][992]MaterialEditorStats: Shader Count: 0
+[2023.12.19-00.38.00:658][993]MaterialEditorStats: Base pass shader: 210 instructions
+[2023.12.19-00.38.00:659][993]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2023.12.19-00.38.00:659][993]MaterialEditorStats: Texture samplers: 6/16
+[2023.12.19-00.38.00:659][993]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2023.12.19-00.38.00:659][993]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.12.19-00.38.00:659][993]MaterialEditorStats: Shader Count: 4
+[2023.12.19-00.38.07:733][472]MaterialEditorStats: Texture samplers: 0/16
+[2023.12.19-00.38.07:733][472]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2023.12.19-00.38.07:733][472]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.12.19-00.38.07:733][472]MaterialEditorStats: Shader Count: 0
+[2023.12.19-00.38.07:826][473]MaterialEditorStats: Base pass shader: 210 instructions
+[2023.12.19-00.38.07:826][473]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2023.12.19-00.38.07:826][473]MaterialEditorStats: Texture samplers: 6/16
+[2023.12.19-00.38.07:826][473]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2023.12.19-00.38.07:826][473]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.12.19-00.38.07:826][473]MaterialEditorStats: Shader Count: 4
+[2023.12.19-00.38.14:130][904]MaterialEditorStats: Texture samplers: 0/16
+[2023.12.19-00.38.14:130][904]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2023.12.19-00.38.14:130][904]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.12.19-00.38.14:130][904]MaterialEditorStats: Shader Count: 0
+[2023.12.19-00.38.14:223][905]MaterialEditorStats: Base pass shader: 210 instructions
+[2023.12.19-00.38.14:223][905]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2023.12.19-00.38.14:223][905]MaterialEditorStats: Texture samplers: 6/16
+[2023.12.19-00.38.14:223][905]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2023.12.19-00.38.14:223][905]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.12.19-00.38.14:223][905]MaterialEditorStats: Shader Count: 4
+[2023.12.19-00.38.14:996][939]LogMaterialEditor: Applying material _M_FGramophone
+[2023.12.19-00.38.15:118][939]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2023.12.19-00.38.15:282][939]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2023.12.19-00.38.26:783][567]MaterialEditorStats: Texture samplers: 0/16
+[2023.12.19-00.38.26:783][567]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2023.12.19-00.38.26:783][567]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.12.19-00.38.26:783][567]MaterialEditorStats: Shader Count: 0
+[2023.12.19-00.38.27:567][609]MaterialEditorStats: Texture samplers: 3/16
+[2023.12.19-00.38.27:567][609]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2023.12.19-00.38.27:567][609]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.12.19-00.38.27:567][609]MaterialEditorStats: Shader Count: 1
+[2023.12.19-00.38.27:670][615]MaterialEditorStats: Base pass shader: 208 instructions
+[2023.12.19-00.38.27:670][615]MaterialEditorStats: Texture samplers: 6/16
+[2023.12.19-00.38.27:670][615]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2023.12.19-00.38.27:670][615]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.12.19-00.38.27:670][615]MaterialEditorStats: Shader Count: 2
+[2023.12.19-00.38.27:774][621]MaterialEditorStats: Base pass shader: 208 instructions
+[2023.12.19-00.38.27:774][621]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2023.12.19-00.38.27:774][621]MaterialEditorStats: Texture samplers: 6/16
+[2023.12.19-00.38.27:774][621]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2023.12.19-00.38.27:774][621]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.12.19-00.38.27:774][621]MaterialEditorStats: Shader Count: 4
+[2023.12.19-00.38.28:676][671]LogMaterialEditor: Applying material _M_FGramophone
+[2023.12.19-00.38.28:798][671]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2023.12.19-00.38.29:294][671]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2023.12.19-00.38.30:314][724]Cmd: TRANSACTION UNDO
+[2023.12.19-00.38.30:314][724]LogEditorTransaction: Undo Material Editor: Delete
+[2023.12.19-00.38.30:453][724]MaterialEditorStats: Texture samplers: 0/16
+[2023.12.19-00.38.30:453][724]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2023.12.19-00.38.30:453][724]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.12.19-00.38.30:453][724]MaterialEditorStats: Shader Count: 0
+[2023.12.19-00.38.30:453][724]MaterialEditorStats: Texture samplers: 0/16
+[2023.12.19-00.38.30:453][724]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.12.19-00.38.30:453][724]MaterialEditorStats: Shader Count: 0
+[2023.12.19-00.38.30:453][724]MaterialEditorStats: Texture samplers: 0/16
+[2023.12.19-00.38.30:453][724]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.12.19-00.38.30:453][724]MaterialEditorStats: Shader Count: 0
+[2023.12.19-00.38.30:507][724]LogViewport: Scene viewport resized to 376x448, mode Windowed.
+[2023.12.19-00.38.30:623][726]MaterialEditorStats: Base pass shader: 210 instructions
+[2023.12.19-00.38.30:623][726]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2023.12.19-00.38.30:623][726]MaterialEditorStats: Texture samplers: 6/16
+[2023.12.19-00.38.30:623][726]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2023.12.19-00.38.30:623][726]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.12.19-00.38.30:623][726]MaterialEditorStats: Shader Count: 4
+[2023.12.19-00.38.30:623][726]MaterialEditorStats: Base pass shader: 196 instructions
+[2023.12.19-00.38.30:623][726]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2023.12.19-00.38.30:623][726]MaterialEditorStats: Texture samplers: 2/16
+[2023.12.19-00.38.30:623][726]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.12.19-00.38.30:623][726]MaterialEditorStats: Shader Count: 4
+[2023.12.19-00.38.30:689][727]MaterialEditorStats: Base pass shader: 196 instructions
+[2023.12.19-00.38.30:689][727]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2023.12.19-00.38.30:689][727]MaterialEditorStats: Texture samplers: 2/16
+[2023.12.19-00.38.30:689][727]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.12.19-00.38.30:689][727]MaterialEditorStats: Shader Count: 2
+[2023.12.19-00.38.37:442][ 97]LogViewport: Scene viewport resized to 1526x637, mode Windowed.
+[2023.12.19-00.38.37:464][ 98]LogViewport: Scene viewport resized to 1526x612, mode Windowed.
+[2023.12.19-00.38.37:516][ 99]LogViewport: Scene viewport resized to 1526x568, mode Windowed.
+[2023.12.19-00.38.37:546][100]LogViewport: Scene viewport resized to 1526x550, mode Windowed.
+[2023.12.19-00.38.37:575][101]LogViewport: Scene viewport resized to 1526x536, mode Windowed.
+[2023.12.19-00.38.37:603][102]LogViewport: Scene viewport resized to 1526x520, mode Windowed.
+[2023.12.19-00.38.37:634][103]LogViewport: Scene viewport resized to 1526x513, mode Windowed.
+[2023.12.19-00.38.37:662][104]LogViewport: Scene viewport resized to 1526x511, mode Windowed.
+[2023.12.19-00.38.37:688][105]LogViewport: Scene viewport resized to 1526x508, mode Windowed.
+[2023.12.19-00.38.37:723][106]LogViewport: Scene viewport resized to 1526x502, mode Windowed.
+[2023.12.19-00.38.37:752][107]LogViewport: Scene viewport resized to 1526x499, mode Windowed.
+[2023.12.19-00.38.37:785][108]LogViewport: Scene viewport resized to 1526x491, mode Windowed.
+[2023.12.19-00.38.37:812][109]LogViewport: Scene viewport resized to 1526x482, mode Windowed.
+[2023.12.19-00.38.37:842][110]LogViewport: Scene viewport resized to 1526x474, mode Windowed.
+[2023.12.19-00.38.37:869][111]LogViewport: Scene viewport resized to 1526x467, mode Windowed.
+[2023.12.19-00.38.37:901][112]LogViewport: Scene viewport resized to 1526x458, mode Windowed.
+[2023.12.19-00.38.37:929][113]LogViewport: Scene viewport resized to 1526x451, mode Windowed.
+[2023.12.19-00.38.37:958][114]LogViewport: Scene viewport resized to 1526x445, mode Windowed.
+[2023.12.19-00.38.37:987][115]LogViewport: Scene viewport resized to 1526x437, mode Windowed.
+[2023.12.19-00.38.38:017][116]LogViewport: Scene viewport resized to 1526x429, mode Windowed.
+[2023.12.19-00.38.38:047][117]LogViewport: Scene viewport resized to 1526x428, mode Windowed.
+[2023.12.19-00.38.38:076][118]LogViewport: Scene viewport resized to 1526x423, mode Windowed.
+[2023.12.19-00.38.38:104][119]LogViewport: Scene viewport resized to 1526x420, mode Windowed.
+[2023.12.19-00.38.46:761][660]LogMaterialEditor: Applying material _M_FGramophone
+[2023.12.19-00.38.46:883][660]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2023.12.19-00.38.47:049][660]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2023.12.19-00.38.55:244][195]MaterialEditorStats: Texture samplers: 0/16
+[2023.12.19-00.38.55:244][195]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2023.12.19-00.38.55:244][195]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.12.19-00.38.55:244][195]MaterialEditorStats: Shader Count: 0
+[2023.12.19-00.38.55:316][197]MaterialEditorStats: Base pass shader: 206 instructions
+[2023.12.19-00.38.55:316][197]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2023.12.19-00.38.55:316][197]MaterialEditorStats: Texture samplers: 5/16
+[2023.12.19-00.38.55:316][197]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2023.12.19-00.38.55:316][197]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.12.19-00.38.55:316][197]MaterialEditorStats: Shader Count: 4
+[2023.12.19-00.38.56:475][273]LogMaterialEditor: Applying material _M_FGramophone
+[2023.12.19-00.38.56:598][273]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2023.12.19-00.38.56:764][273]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2023.12.19-00.38.58:340][375]Cmd: TRANSACTION UNDO
+[2023.12.19-00.38.58:340][375]LogEditorTransaction: Undo Material Editor: Delete
+[2023.12.19-00.38.58:452][375]MaterialEditorStats: Texture samplers: 0/16
+[2023.12.19-00.38.58:452][375]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2023.12.19-00.38.58:452][375]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.12.19-00.38.58:452][375]MaterialEditorStats: Shader Count: 0
+[2023.12.19-00.38.58:452][375]MaterialEditorStats: Texture samplers: 0/16
+[2023.12.19-00.38.58:452][375]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.12.19-00.38.58:452][375]MaterialEditorStats: Shader Count: 0
+[2023.12.19-00.38.58:452][375]MaterialEditorStats: Texture samplers: 0/16
+[2023.12.19-00.38.58:452][375]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.12.19-00.38.58:452][375]MaterialEditorStats: Shader Count: 0
+[2023.12.19-00.38.58:591][377]MaterialEditorStats: Base pass shader: 210 instructions
+[2023.12.19-00.38.58:591][377]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2023.12.19-00.38.58:591][377]MaterialEditorStats: Texture samplers: 6/16
+[2023.12.19-00.38.58:591][377]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2023.12.19-00.38.58:591][377]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.12.19-00.38.58:591][377]MaterialEditorStats: Shader Count: 4
+[2023.12.19-00.38.58:657][378]MaterialEditorStats: Base pass shader: 196 instructions
+[2023.12.19-00.38.58:657][378]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2023.12.19-00.38.58:657][378]MaterialEditorStats: Texture samplers: 2/16
+[2023.12.19-00.38.58:657][378]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.12.19-00.38.58:657][378]MaterialEditorStats: Shader Count: 2
+[2023.12.19-00.38.58:712][379]MaterialEditorStats: Base pass shader: 196 instructions
+[2023.12.19-00.38.58:712][379]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2023.12.19-00.38.58:712][379]MaterialEditorStats: Texture samplers: 2/16
+[2023.12.19-00.38.58:712][379]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.12.19-00.38.58:712][379]MaterialEditorStats: Shader Count: 4
+[2023.12.19-00.39.00:766][500]LogMaterialEditor: Applying material _M_FGramophone
+[2023.12.19-00.39.00:890][500]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2023.12.19-00.39.01:067][500]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2023.12.19-00.39.08:141][937]Cmd: DUPLICATE
+[2023.12.19-00.39.08:141][937]Cmd: ACTOR DUPLICATE
+[2023.12.19-00.39.10:992][110]Cmd: TRANSACTION UNDO
+[2023.12.19-00.39.10:992][110]LogEditorTransaction: Undo Duplicate Elements
+[2023.12.19-00.39.12:892][193]LogContentBrowser: Deferred new asset file creation: _M_FGramophone1
+[2023.12.19-00.39.12:904][193]LogContentBrowser: Creating deferred item: _M_FGramophone1
+[2023.12.19-00.39.12:925][194]LogContentBrowser: Renaming the item being created (Deferred Item: _M_FGramophone1).
+[2023.12.19-00.39.21:381][715]LogContentBrowser: Attempting asset rename: _M_FGramophone1 -> _M_GTest1
+[2023.12.19-00.39.21:384][715]LogContentBrowser: End creating deferred item _M_FGramophone1
+[2023.12.19-00.39.23:108][810]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Materials/_M_GTest1._M_GTest1
+[2023.12.19-00.39.23:113][810]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.19-00.39.23:113][810]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.19-00.39.23:233][810]MaterialEditorStats: Texture samplers: 0/16
+[2023.12.19-00.39.23:233][810]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2023.12.19-00.39.23:233][810]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.12.19-00.39.23:233][810]MaterialEditorStats: Shader Count: 0
+[2023.12.19-00.39.23:245][810]LogViewport: Scene viewport resized to 376x448, mode Windowed.
+[2023.12.19-00.39.23:343][812]MaterialEditorStats: Base pass shader: 210 instructions
+[2023.12.19-00.39.23:343][812]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2023.12.19-00.39.23:343][812]MaterialEditorStats: Texture samplers: 6/16
+[2023.12.19-00.39.23:343][812]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2023.12.19-00.39.23:343][812]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.12.19-00.39.23:343][812]MaterialEditorStats: Shader Count: 4
+[2023.12.19-00.42.03:926][430]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2023.12.19-00.42.06:553][430]LogSlate: Window 'Delete Assets' being destroyed
+[2023.12.19-00.42.06:600][430]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2023.12.19-00.42.06:600][430]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.19-00.42.06:627][430]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2023.12.19-00.42.06:628][430]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.19-00.42.06:636][430]LogUObjectGlobals: Force Deleting 5 Package(s):
+	Asset Name: /Game/Textures/GTest_1/Texture_BaseColor.Texture_BaseColor
+	Asset Type: Texture2D
+	Asset Name: /Game/Textures/GTest_1/Texture_Height.Texture_Height
+	Asset Type: Texture2D
+	Asset Name: /Game/Textures/GTest_1/Texture_Metallic.Texture_Metallic
+	Asset Type: Texture2D
+	Asset Name: /Game/Textures/GTest_1/Texture_Normal.Texture_Normal
+	Asset Type: Texture2D
+	Asset Name: /Game/Textures/GTest_1/Texture_Roughness.Texture_Roughness
+	Asset Type: Texture2D
+[2023.12.19-00.42.06:997][430]LogMaterial: Warning: [AssetLog] /Engine/Transient._M_FGramophone: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2023.12.19-00.42.06:999][430]LogMaterial: Warning: [AssetLog] /Engine/Transient._M_FGramophone: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2023.12.19-00.42.07:000][430]LogMaterial: Warning: [AssetLog] /Engine/Transient._M_FGramophone: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2023.12.19-00.42.07:001][430]LogMaterial: Warning: [AssetLog] /Engine/Transient._M_GTest1: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2023.12.19-00.42.07:003][430]LogMaterial: Warning: [AssetLog] /Engine/Transient._M_GTest1: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2023.12.19-00.42.07:004][430]LogMaterial: Warning: [AssetLog] /Engine/Transient._M_GTest1: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2023.12.19-00.42.07:006][430]LogMaterial: Warning: [AssetLog] /Game/Materials/_M_GTest1._M_GTest1: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2023.12.19-00.42.07:007][430]LogMaterial: Warning: [AssetLog] /Game/Materials/_M_GTest1._M_GTest1: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2023.12.19-00.42.07:008][430]LogMaterial: Warning: [AssetLog] /Game/Materials/_M_GTest1._M_GTest1: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2023.12.19-00.42.07:010][430]LogMaterial: Warning: [AssetLog] /Game/Materials/_M_GTest1._M_GTest1: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2023.12.19-00.42.07:011][430]LogMaterial: Warning: [AssetLog] /Game/Materials/_M_GTest1._M_GTest1: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2023.12.19-00.42.07:012][430]LogMaterial: Warning: [AssetLog] /Game/Materials/_M_GTest1._M_GTest1: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2023.12.19-00.42.07:013][430]LogMaterial: Warning: [AssetLog] /Game/Materials/_M_GTest1._M_GTest1: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2023.12.19-00.42.07:015][430]LogMaterial: Warning: [AssetLog] /Game/Materials/_M_GTest1._M_GTest1: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2023.12.19-00.42.07:016][430]LogMaterial: Warning: [AssetLog] /Game/Materials/_M_GTest1._M_GTest1: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2023.12.19-00.42.07:018][430]LogMaterial: Warning: [AssetLog] /Game/Materials/_M_GTest1._M_GTest1: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2023.12.19-00.42.07:020][430]LogMaterial: Warning: [AssetLog] /Game/Materials/_M_GTest1._M_GTest1: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2023.12.19-00.42.07:021][430]LogMaterial: Warning: [AssetLog] /Game/Materials/_M_GTest1._M_GTest1: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2023.12.19-00.42.07:023][430]LogMaterial: Warning: [AssetLog] /Game/Materials/_M_GTest1._M_GTest1: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2023.12.19-00.42.07:024][430]LogMaterial: Warning: [AssetLog] /Game/Materials/_M_GTest1._M_GTest1: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2023.12.19-00.42.07:026][430]LogMaterial: Warning: [AssetLog] /Game/Materials/_M_GTest1._M_GTest1: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2023.12.19-00.42.07:027][430]LogMaterial: Warning: [AssetLog] /Game/Materials/_M_FGramophone._M_FGramophone: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2023.12.19-00.42.07:029][430]LogMaterial: Warning: [AssetLog] /Game/Materials/_M_FGramophone._M_FGramophone: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2023.12.19-00.42.07:030][430]LogMaterial: Warning: [AssetLog] /Game/Materials/_M_FGramophone._M_FGramophone: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2023.12.19-00.42.07:031][430]LogMaterial: Warning: [AssetLog] /Game/Materials/_M_FGramophone._M_FGramophone: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2023.12.19-00.42.07:033][430]LogMaterial: Warning: [AssetLog] /Game/Materials/_M_FGramophone._M_FGramophone: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2023.12.19-00.42.07:034][430]LogMaterial: Warning: [AssetLog] /Game/Materials/_M_FGramophone._M_FGramophone: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2023.12.19-00.42.07:035][430]LogMaterial: Warning: [AssetLog] /Game/Materials/_M_FGramophone._M_FGramophone: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2023.12.19-00.42.07:036][430]LogMaterial: Warning: [AssetLog] /Game/Materials/_M_FGramophone._M_FGramophone: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2023.12.19-00.42.07:037][430]LogMaterial: Warning: [AssetLog] /Game/Materials/_M_FGramophone._M_FGramophone: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2023.12.19-00.42.07:039][430]LogMaterial: Warning: [AssetLog] /Game/Materials/_M_FGramophone._M_FGramophone: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2023.12.19-00.42.07:040][430]LogMaterial: Warning: [AssetLog] /Game/Materials/_M_FGramophone._M_FGramophone: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2023.12.19-00.42.07:041][430]LogMaterial: Warning: [AssetLog] /Game/Materials/_M_FGramophone._M_FGramophone: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2023.12.19-00.42.07:042][430]LogMaterial: Warning: [AssetLog] /Game/Materials/_M_FGramophone._M_FGramophone: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2023.12.19-00.42.07:044][430]LogMaterial: Warning: [AssetLog] /Game/Materials/_M_FGramophone._M_FGramophone: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2023.12.19-00.42.07:045][430]LogMaterial: Warning: [AssetLog] /Game/Materials/_M_FGramophone._M_FGramophone: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2023.12.19-00.42.07:099][430]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2023.12.19-00.42.07:109][430]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2023.12.19-00.42.07:115][430]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2023.12.19-00.42.17:159][141]LogInterchangeEngine: [Pending] Importing
+[2023.12.19-00.42.17:159][141]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/baleksander...ges/Textures/GTest_1/Texture_BaseColor.png]
+[2023.12.19-00.42.17:160][141]LogInterchangeEngine: [Pending] Importing -  (2)
+[2023.12.19-00.42.17:160][141]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/baleksander...ges/Textures/GTest_1/Texture_Height.png]
+[2023.12.19-00.42.17:160][141]LogInterchangeEngine: [Pending] Importing -  (3)
+[2023.12.19-00.42.17:161][141]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/baleksander...ges/Textures/GTest_1/Texture_Metallic.png]
+[2023.12.19-00.42.17:161][141]LogInterchangeEngine: [Pending] Importing -  (4)
+[2023.12.19-00.42.17:162][141]LogInterchangeEngine: [Pending] Importing -  (5)
+[2023.12.19-00.42.17:177][142]LogInterchangeEngine: [Pending] Importing -  (2)
+[2023.12.19-00.42.17:177][142]LogInterchangeEngine: [Pending] Importing -  (4)
+[2023.12.19-00.42.17:177][142]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/baleksander...ges/Textures/GTest_1/Texture_Normal.png]
+[2023.12.19-00.42.17:177][142]LogInterchangeEngine: [Pending] Importing -  (2)
+[2023.12.19-00.42.17:177][142]LogInterchangeEngine: [Pending] Importing -  (3)
+[2023.12.19-00.42.17:177][142]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/baleksander...ges/Textures/GTest_1/Texture_Roughness.png]
+[2023.12.19-00.42.17:178][142]LogTexture: Display: Building textures: /Game/Textures/GTest_1/Texture_Height.Texture_Height (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 276.062484 MB), EncodeSpeed: Fast
+[2023.12.19-00.42.17:179][142]LogTexture: Display: Building textures: /Game/Textures/GTest_1/Texture_Metallic.Texture_Metallic (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 276.062484 MB), EncodeSpeed: Fast
+[2023.12.19-00.42.17:198][142]LogInterchangeEngine: [Pending] Importing -  (3)
+[2023.12.19-00.42.17:300][144]LogTexture: Display: Building textures: /Game/Textures/GTest_1/Texture_Roughness.Texture_Roughness (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 276.062484 MB), EncodeSpeed: Fast
+[2023.12.19-00.42.17:309][144]LogTexture: Display: Building textures: /Game/Textures/GTest_1/Texture_BaseColor.Texture_BaseColor (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2023.12.19-00.42.17:314][144]LogInterchangePipeline: Display: Auto-detected normal map
+[2023.12.19-00.42.17:317][144]LogInterchangeEngine: [Pending] Importing -  (2)
+[2023.12.19-00.42.17:317][144]LogInterchangeEngine: [Pending] Importing -  (1)
+[2023.12.19-00.42.17:332][144]LogTexture: Display: Building textures: /Game/Textures/GTest_1/Texture_Normal.Texture_Normal (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 302.812488 MB), EncodeSpeed: Fast
+[2023.12.19-00.42.17:373][144]LogInterchangeEngine: [Success] Import Done
+[2023.12.19-00.42.17:477][145]LogInterchangeEngine: [Success] Import Done
+[2023.12.19-00.42.44:807][914]Cmd: TRANSACTION UNDO
+[2023.12.19-00.42.44:807][914]LogEditorTransaction: Undo Move Elements
+[2023.12.19-00.42.50:708][263]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Materials/_M_FGramophone._M_FGramophone
+[2023.12.19-00.42.50:711][263]LogMaterial: Warning: [AssetLog] /Engine/Transient._M_FGramophone: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2023.12.19-00.42.50:715][263]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.19-00.42.50:715][263]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.19-00.42.50:799][263]LogMaterial: Warning: [AssetLog] /Engine/Transient._M_FGramophone: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2023.12.19-00.42.50:801][263]LogMaterial: Warning: [AssetLog] /Engine/Transient._M_FGramophone: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2023.12.19-00.42.50:829][263]MaterialEditorStats: Error: [SM6] (Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+[2023.12.19-00.42.50:829][263]MaterialEditorStats: Error: [SM6] (Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+[2023.12.19-00.42.50:829][263]MaterialEditorStats: Error: [SM6] (Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+[2023.12.19-00.42.50:829][263]MaterialEditorStats: Error: [SM6] (Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+[2023.12.19-00.42.50:840][263]LogViewport: Scene viewport resized to 376x448, mode Windowed.
+[2023.12.19-00.42.52:540][365]LogViewport: Scene viewport resized to 375x460, mode Windowed.
+[2023.12.19-00.42.52:646][367]LogViewport: Scene viewport resized to 151x157, mode Windowed.
+[2023.12.19-00.42.53:310][406]LogViewport: Scene viewport resized to 152x162, mode Windowed.
+[2023.12.19-00.42.54:159][454]LogViewport: Scene viewport resized to 376x448, mode Windowed.
+[2023.12.19-00.43.22:338][197]LogD3D12RHI: Warning: Descriptor cache ran out of sub allocated descriptor blocks! Moving to Context local View heap strategy
+[2023.12.19-00.43.22:338][197]LogD3D12RHI: This should only happen in the Editor where it doesn't matter as much. If it happens in game you should increase the device global heap size!
+[2023.12.19-00.43.43:758][601]LogD3D12RHI: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
+[2023.12.19-00.43.59:331][574]LogMaterial: Warning: [AssetLog] /Engine/Transient._M_FGramophone: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2023.12.19-00.43.59:336][574]LogMaterial: Warning: [AssetLog] /Engine/Transient._M_FGramophone: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2023.12.19-00.43.59:340][574]MaterialEditorStats: Error: [SM6] (Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+[2023.12.19-00.43.59:340][574]MaterialEditorStats: Error: [SM6] (Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+[2023.12.19-00.43.59:340][574]MaterialEditorStats: Error: [SM6] (Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+[2023.12.19-00.43.59:462][577]LogShaderCompilers: Display: ================================================
+[2023.12.19-00.43.59:462][577]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.12.19-00.43.59:462][577]LogShaderCompilers: Display: Total job queries 1,010, among them cache hits 866 (85.74%)
+[2023.12.19-00.43.59:462][577]LogShaderCompilers: Display: Tracking 144 distinct input hashes that result in 89 distinct outputs (61.81%)
+[2023.12.19-00.43.59:462][577]LogShaderCompilers: Display: RAM used: 3.13 MiB of 1.60 GiB budget. Usage: 0.19%
+[2023.12.19-00.43.59:462][577]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.12.19-00.43.59:462][577]LogShaderCompilers: Display: Shaders Compiled: 61
+[2023.12.19-00.43.59:462][577]LogShaderCompilers: Display: Jobs assigned 61, completed 61 (100%)
+[2023.12.19-00.43.59:462][577]LogShaderCompilers: Display: Average time worker was idle: 203.22 s
+[2023.12.19-00.43.59:462][577]LogShaderCompilers: Display: Time job spent in pending queue: average 0.25 s, longest 1.38 s
+[2023.12.19-00.43.59:462][577]LogShaderCompilers: Display: Job execution time: average 0.68 s, max 2.74 s
+[2023.12.19-00.43.59:462][577]LogShaderCompilers: Display: Job life time (pending + execution): average 0.93 s, max 2.75
+[2023.12.19-00.43.59:462][577]LogShaderCompilers: Display: Shader code size: average 37.214 KiB, min 5.531 KiB, max 62.992 KiB
+[2023.12.19-00.43.59:462][577]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 13.23 s
+[2023.12.19-00.43.59:462][577]LogShaderCompilers: Display: Jobs were issued in 61 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.12.19-00.43.59:462][577]LogShaderCompilers: Display: Average processing rate: 4.61 jobs/sec
+[2023.12.19-00.43.59:462][577]LogShaderCompilers: Display: Total thread time: 13.504 s
+[2023.12.19-00.43.59:462][577]LogShaderCompilers: Display: Total thread preprocess time: 1.358 s
+[2023.12.19-00.43.59:462][577]LogShaderCompilers: Display: Percentage time preprocessing: 10.06%
+[2023.12.19-00.43.59:462][577]LogShaderCompilers: Display: Effective parallelization: 1.02 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2023.12.19-00.43.59:462][577]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.12.19-00.43.59:462][577]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   10 times, average 0.28 sec, max 0.33 sec, min 0.19 sec)
+[2023.12.19-00.43.59:462][577]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    6 times, average 0.27 sec, max 0.29 sec, min 0.26 sec)
+[2023.12.19-00.43.59:462][577]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   10 times, average 0.27 sec, max 0.31 sec, min 0.22 sec)
+[2023.12.19-00.43.59:462][577]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    1 times, average 0.26 sec, max 0.26 sec, min 0.26 sec)
+[2023.12.19-00.43.59:462][577]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    1 times, average 0.26 sec, max 0.26 sec, min 0.26 sec)
+[2023.12.19-00.43.59:462][577]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.12.19-00.43.59:462][577]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 20.57% of total time (compiled   10 times, average 0.28 sec, max 0.33 sec, min 0.19 sec)
+[2023.12.19-00.43.59:462][577]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 20.15% of total time (compiled   10 times, average 0.27 sec, max 0.31 sec, min 0.22 sec)
+[2023.12.19-00.43.59:463][577]LogShaderCompilers: Display:                                                 FLumenCardVS - 12.11% of total time (compiled    6 times, average 0.27 sec, max 0.29 sec, min 0.26 sec)
+[2023.12.19-00.43.59:463][577]LogShaderCompilers: Display:                                             FDebugViewModePS - 8.76% of total time (compiled    6 times, average 0.20 sec, max 0.20 sec, min 0.19 sec)
+[2023.12.19-00.43.59:463][577]LogShaderCompilers: Display:                                             FDebugViewModeVS - 8.26% of total time (compiled    6 times, average 0.19 sec, max 0.20 sec, min 0.18 sec)
+[2023.12.19-00.43.59:463][577]LogShaderCompilers: Display: ================================================
+[2023.12.19-00.44.11:561][250]LogMaterial: Warning: [AssetLog] /Engine/Transient._M_FGramophone: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2023.12.19-00.44.11:566][250]LogMaterial: Warning: [AssetLog] /Engine/Transient._M_FGramophone: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2023.12.19-00.44.11:570][250]MaterialEditorStats: Error: [SM6] (Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+[2023.12.19-00.44.11:570][250]MaterialEditorStats: Error: [SM6] (Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+[2023.12.19-00.44.26:429][140]LogMaterial: Warning: [AssetLog] /Engine/Transient._M_FGramophone: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2023.12.19-00.44.26:434][140]LogMaterial: Warning: [AssetLog] /Engine/Transient._M_FGramophone: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2023.12.19-00.44.26:438][140]MaterialEditorStats: Error: [SM6] (Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+[2023.12.19-00.44.35:164][617]MaterialEditorStats: Texture samplers: 0/16
+[2023.12.19-00.44.35:164][617]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2023.12.19-00.44.35:164][617]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.12.19-00.44.35:164][617]MaterialEditorStats: Shader Count: 0
+[2023.12.19-00.44.35:255][618]MaterialEditorStats: Base pass shader: 210 instructions
+[2023.12.19-00.44.35:255][618]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2023.12.19-00.44.35:255][618]MaterialEditorStats: Texture samplers: 6/16
+[2023.12.19-00.44.35:255][618]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2023.12.19-00.44.35:255][618]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.12.19-00.44.35:255][618]MaterialEditorStats: Shader Count: 4
+[2023.12.19-00.44.37:361][720]LogMaterialEditor: Applying material _M_FGramophone
+[2023.12.19-00.44.37:483][720]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2023.12.19-00.44.38:291][720]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2023.12.19-00.44.54:910][ 20]LogSlate: Window 'Message' being destroyed
+[2023.12.19-00.44.54:916][ 20]Message dialog closed, result: Cancel, title: Message, text: M_Gramophone already exists. Do you want to replace it?
+[2023.12.19-00.45.03:146][ 20]LogSlate: Window 'Save Asset As' being destroyed
+[2023.12.19-00.45.04:792][ 90]LogViewport: Scene viewport resized to 152x162, mode Windowed.
+[2023.12.19-00.45.06:259][127]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2023.12.19-00.45.06:291][127]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Main_Auto3
+[2023.12.19-00.45.06:292][127]LogSavePackage: Moving '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Main_Auto3AF612A85435BDBC9B52E369A9B399B93.tmp' to '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Autosaves/Game/Main_Auto3.umap'
+[2023.12.19-00.45.06:293][127]LogAssetRegistry: Warning: ScanPathsSynchronous: ../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Autosaves/Game/Main_Auto3.umap is in the /Temp path, will not scan.
+[2023.12.19-00.45.06:294][127]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Main' took 0.040
+[2023.12.19-00.45.06:294][127]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.040
+[2023.12.19-00.45.06:294][127]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Textures/Gramophone/Texture_BaseColor] ([1] browsable assets)...
+[2023.12.19-00.45.06:294][127]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/Gramophone/Texture_BaseColor]
+[2023.12.19-00.45.06:303][127]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Textures/Gramophone/Texture_BaseColor_Auto3
+[2023.12.19-00.45.06:304][127]LogSavePackage: Moving '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Texture_BaseColor_Auto3ECBDD3144A71AEFC9367D785309EE2A0.tmp' to '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Autosaves/Game/Textures/Gramophone/Texture_BaseColor_Auto3.uasset'
+[2023.12.19-00.45.06:305][127]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Textures/Gramophone/Texture_Height] ([1] browsable assets)...
+[2023.12.19-00.45.06:305][127]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/Gramophone/Texture_Height]
+[2023.12.19-00.45.06:307][127]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Textures/Gramophone/Texture_Height_Auto3
+[2023.12.19-00.45.06:307][127]LogSavePackage: Moving '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Texture_Height_Auto3E832CA3D402FC69EF2E076AF70F1A112.tmp' to '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Autosaves/Game/Textures/Gramophone/Texture_Height_Auto3.uasset'
+[2023.12.19-00.45.06:309][127]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Textures/Gramophone/Texture_Metallic] ([1] browsable assets)...
+[2023.12.19-00.45.06:309][127]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/Gramophone/Texture_Metallic]
+[2023.12.19-00.45.06:312][127]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Textures/Gramophone/Texture_Metallic_Auto3
+[2023.12.19-00.45.06:312][127]LogSavePackage: Moving '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Texture_Metallic_Auto3115FD34A4041A308EF8D6CBC56BDECDC.tmp' to '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Autosaves/Game/Textures/Gramophone/Texture_Metallic_Auto3.uasset'
+[2023.12.19-00.45.06:313][127]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Textures/Gramophone/Texture_Normal] ([1] browsable assets)...
+[2023.12.19-00.45.06:313][127]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/Gramophone/Texture_Normal]
+[2023.12.19-00.45.06:323][127]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Textures/Gramophone/Texture_Normal_Auto3
+[2023.12.19-00.45.06:323][127]LogSavePackage: Moving '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Texture_Normal_Auto36D85067F4ADAF7F6D874C3A6E04E76BB.tmp' to '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Autosaves/Game/Textures/Gramophone/Texture_Normal_Auto3.uasset'
+[2023.12.19-00.45.06:324][127]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Textures/Gramophone/Texture_Roughness] ([1] browsable assets)...
+[2023.12.19-00.45.06:324][127]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/Gramophone/Texture_Roughness]
+[2023.12.19-00.45.06:327][127]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Textures/Gramophone/Texture_Roughness_Auto3
+[2023.12.19-00.45.06:327][127]LogSavePackage: Moving '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Texture_Roughness_Auto3B09275924D899E9E0F60F7BC702D8EE1.tmp' to '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Autosaves/Game/Textures/Gramophone/Texture_Roughness_Auto3.uasset'
+[2023.12.19-00.45.06:329][127]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/_M_FGramophone] ([1] browsable assets)...
+[2023.12.19-00.45.08:042][127]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Materials/_M_FGramophone._M_FGramophone]
+[2023.12.19-00.45.08:042][127]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/_M_FGramophone]
+[2023.12.19-00.45.08:044][127]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Materials/_M_FGramophone_Auto3
+[2023.12.19-00.45.08:044][127]LogSavePackage: Moving '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/_M_FGramophone_Auto3D4BBE518444B998CE0804C9CD021AD7E.tmp' to '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Autosaves/Game/Materials/_M_FGramophone_Auto3.uasset'
+[2023.12.19-00.45.08:046][127]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Models/Gramophone_Test] ([1] browsable assets)...
+[2023.12.19-00.45.08:046][127]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Gramophone_Test]
+[2023.12.19-00.45.08:094][127]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Models/Gramophone_Test_Auto3
+[2023.12.19-00.45.08:094][127]LogSavePackage: Moving '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Gramophone_Test_Auto38397CFF7427D35DA59AC2AAC88CD349C.tmp' to '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Autosaves/Game/Models/Gramophone_Test_Auto3.uasset'
+[2023.12.19-00.45.08:095][127]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Models/Silver_Material] ([1] browsable assets)...
+[2023.12.19-00.45.08:095][127]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Silver_Material]
+[2023.12.19-00.45.08:097][127]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Models/Silver_Material_Auto3
+[2023.12.19-00.45.08:097][127]LogSavePackage: Moving '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Silver_Material_Auto37B08C22A4079B5B2D82881B2D5CE1273.tmp' to '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Autosaves/Game/Models/Silver_Material_Auto3.uasset'
+[2023.12.19-00.45.08:098][127]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Models/Gramophone_Material] ([1] browsable assets)...
+[2023.12.19-00.45.08:098][127]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Gramophone_Material]
+[2023.12.19-00.45.08:098][127]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Models/Gramophone_Material_Auto3
+[2023.12.19-00.45.08:099][127]LogSavePackage: Moving '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Gramophone_Material_Auto3F2E5C93449C292CACE6086B8CE3F509B.tmp' to '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Autosaves/Game/Models/Gramophone_Material_Auto3.uasset'
+[2023.12.19-00.45.08:100][127]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Models/Black_Material] ([1] browsable assets)...
+[2023.12.19-00.45.08:100][127]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Black_Material]
+[2023.12.19-00.45.08:101][127]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Models/Black_Material_Auto3
+[2023.12.19-00.45.08:101][127]LogSavePackage: Moving '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Black_Material_Auto3AD980689419CC78A624DC482FE38E14D.tmp' to '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Autosaves/Game/Models/Black_Material_Auto3.uasset'
+[2023.12.19-00.45.08:102][127]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/_M_PBR] ([1] browsable assets)...
+[2023.12.19-00.45.08:133][127]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Materials/_M_PBR._M_PBR]
+[2023.12.19-00.45.08:133][127]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/_M_PBR]
+[2023.12.19-00.45.08:136][127]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Materials/_M_PBR_Auto3
+[2023.12.19-00.45.08:136][127]LogSavePackage: Moving '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/_M_PBR_Auto37C3E02FA49A428CAB2036B9612471860.tmp' to '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Autosaves/Game/Materials/_M_PBR_Auto3.uasset'
+[2023.12.19-00.45.08:137][127]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/_M_Silver] ([1] browsable assets)...
+[2023.12.19-00.45.08:161][127]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Materials/_M_Silver._M_Silver]
+[2023.12.19-00.45.08:161][127]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/_M_Silver]
+[2023.12.19-00.45.08:163][127]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Materials/_M_Silver_Auto3
+[2023.12.19-00.45.08:163][127]LogSavePackage: Moving '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/_M_Silver_Auto38D89353E48EE365FE43CB8B8545F0C76.tmp' to '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Autosaves/Game/Materials/_M_Silver_Auto3.uasset'
+[2023.12.19-00.45.08:164][127]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/M_Silver] ([1] browsable assets)...
+[2023.12.19-00.45.08:173][127]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/Materials/M_Silver.M_Silver]
+[2023.12.19-00.45.08:173][127]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/M_Silver]
+[2023.12.19-00.45.08:175][127]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Materials/M_Silver_Auto3
+[2023.12.19-00.45.08:175][127]LogSavePackage: Moving '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/M_Silver_Auto32556BAA6486D10176E79C994B2982D33.tmp' to '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Autosaves/Game/Materials/M_Silver_Auto3.uasset'
+[2023.12.19-00.45.08:177][127]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/_M_GTest1] ([1] browsable assets)...
+[2023.12.19-00.45.08:187][127]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Materials/_M_GTest1._M_GTest1]
+[2023.12.19-00.45.08:187][127]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/_M_GTest1]
+[2023.12.19-00.45.08:189][127]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Materials/_M_GTest1_Auto3
+[2023.12.19-00.45.08:189][127]LogSavePackage: Moving '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/_M_GTest1_Auto3201D4C474391B416B190089EECCF3AB5.tmp' to '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Autosaves/Game/Materials/_M_GTest1_Auto3.uasset'
+[2023.12.19-00.45.08:191][127]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/M_Gramophone] ([1] browsable assets)...
+[2023.12.19-00.45.08:202][127]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/Materials/M_Gramophone.M_Gramophone]
+[2023.12.19-00.45.08:202][127]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/M_Gramophone]
+[2023.12.19-00.45.08:203][127]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Materials/M_Gramophone_Auto3
+[2023.12.19-00.45.08:203][127]LogSavePackage: Moving '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/M_Gramophone_Auto353B3C3A744D23A670003D183CA39FE16.tmp' to '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Autosaves/Game/Materials/M_Gramophone_Auto3.uasset'
+[2023.12.19-00.45.08:205][127]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/GTest_1/Texture_BaseColor] ([1] browsable assets)...
+[2023.12.19-00.45.08:207][127]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/GTest_1/Texture_BaseColor.Texture_BaseColor]
+[2023.12.19-00.45.08:207][127]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/GTest_1/Texture_BaseColor]
+[2023.12.19-00.45.08:216][127]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Textures/GTest_1/Texture_BaseColor_Auto3
+[2023.12.19-00.45.08:216][127]LogSavePackage: Moving '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Texture_BaseColor_Auto314CD96C342E4CA4121CE41BBF86F2DF5.tmp' to '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Autosaves/Game/Textures/GTest_1/Texture_BaseColor_Auto3.uasset'
+[2023.12.19-00.45.08:218][127]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/GTest_1/Texture_Height] ([1] browsable assets)...
+[2023.12.19-00.45.08:220][127]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/GTest_1/Texture_Height.Texture_Height]
+[2023.12.19-00.45.08:220][127]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/GTest_1/Texture_Height]
+[2023.12.19-00.45.08:224][127]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Textures/GTest_1/Texture_Height_Auto3
+[2023.12.19-00.45.08:225][127]LogSavePackage: Moving '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Texture_Height_Auto3C611654B45AAD6911F6718B51FC48862.tmp' to '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Autosaves/Game/Textures/GTest_1/Texture_Height_Auto3.uasset'
+[2023.12.19-00.45.08:226][127]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/GTest_1/Texture_Metallic] ([1] browsable assets)...
+[2023.12.19-00.45.08:228][127]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/GTest_1/Texture_Metallic.Texture_Metallic]
+[2023.12.19-00.45.08:228][127]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/GTest_1/Texture_Metallic]
+[2023.12.19-00.45.08:231][127]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Textures/GTest_1/Texture_Metallic_Auto3
+[2023.12.19-00.45.08:231][127]LogSavePackage: Moving '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Texture_Metallic_Auto34FE4453743159539DA33668D3C50361F.tmp' to '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Autosaves/Game/Textures/GTest_1/Texture_Metallic_Auto3.uasset'
+[2023.12.19-00.45.08:233][127]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/GTest_1/Texture_Normal] ([1] browsable assets)...
+[2023.12.19-00.45.08:234][127]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/GTest_1/Texture_Normal.Texture_Normal]
+[2023.12.19-00.45.08:234][127]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/GTest_1/Texture_Normal]
+[2023.12.19-00.45.08:243][127]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Textures/GTest_1/Texture_Normal_Auto3
+[2023.12.19-00.45.08:243][127]LogSavePackage: Moving '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Texture_Normal_Auto341902BC042578FBCD1E3648CAA6D3BB4.tmp' to '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Autosaves/Game/Textures/GTest_1/Texture_Normal_Auto3.uasset'
+[2023.12.19-00.45.08:244][127]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/GTest_1/Texture_Roughness] ([1] browsable assets)...
+[2023.12.19-00.45.08:247][127]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/GTest_1/Texture_Roughness.Texture_Roughness]
+[2023.12.19-00.45.08:247][127]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/GTest_1/Texture_Roughness]
+[2023.12.19-00.45.08:251][127]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Textures/GTest_1/Texture_Roughness_Auto3
+[2023.12.19-00.45.08:251][127]LogSavePackage: Moving '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Texture_Roughness_Auto3DD294B014FEFB7EE00EA8DB775CF30D5.tmp' to '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Autosaves/Game/Textures/GTest_1/Texture_Roughness_Auto3.uasset'
+[2023.12.19-00.45.08:252][127]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/M_GTest1] ([1] browsable assets)...
+[2023.12.19-00.45.08:263][127]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/Materials/M_GTest1.M_GTest1]
+[2023.12.19-00.45.08:263][127]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/M_GTest1]
+[2023.12.19-00.45.08:265][127]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Materials/M_GTest1_Auto3
+[2023.12.19-00.45.08:265][127]LogSavePackage: Moving '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/M_GTest1_Auto3B915BB944CE24744709CB7A3BDD45A4C.tmp' to '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Autosaves/Game/Materials/M_GTest1_Auto3.uasset'
+[2023.12.19-00.45.08:266][127]LogFileHelpers: Auto-saving content packages took 1.972
+[2023.12.19-00.45.08:332][128]MaterialEditorStats: Base pass shader: 210 instructions
+[2023.12.19-00.45.08:333][128]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2023.12.19-00.45.08:333][128]MaterialEditorStats: MaxSampler: 259 instructions
+[2023.12.19-00.45.08:333][128]MaterialEditorStats: Texture samplers: 7/16
+[2023.12.19-00.45.08:333][128]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2023.12.19-00.45.08:333][128]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.12.19-00.45.08:333][128]MaterialEditorStats: Shader Count: 23
+[2023.12.19-00.46.01:776][134]LogViewport: Scene viewport resized to 376x448, mode Windowed.
+[2023.12.19-00.46.36:799][  0]MaterialEditorStats: Texture samplers: 0/16
+[2023.12.19-00.46.36:799][  0]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2023.12.19-00.46.36:799][  0]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.12.19-00.46.36:799][  0]MaterialEditorStats: Shader Count: 0
+[2023.12.19-00.46.36:874][  2]MaterialEditorStats: Base pass shader: 206 instructions
+[2023.12.19-00.46.36:874][  2]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2023.12.19-00.46.36:874][  2]MaterialEditorStats: Texture samplers: 5/16
+[2023.12.19-00.46.36:874][  2]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2023.12.19-00.46.36:874][  2]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.12.19-00.46.36:874][  2]MaterialEditorStats: Shader Count: 4
+[2023.12.19-00.46.40:350][180]MaterialEditorStats: Texture samplers: 0/16
+[2023.12.19-00.46.40:350][180]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2023.12.19-00.46.40:350][180]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.12.19-00.46.40:350][180]MaterialEditorStats: Shader Count: 0
+[2023.12.19-00.46.40:390][182]MaterialEditorStats: Base pass shader: 206 instructions
+[2023.12.19-00.46.40:390][182]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2023.12.19-00.46.40:390][182]MaterialEditorStats: Texture samplers: 5/16
+[2023.12.19-00.46.40:390][182]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2023.12.19-00.46.40:390][182]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.12.19-00.46.40:390][182]MaterialEditorStats: Shader Count: 4
+[2023.12.19-00.46.51:582][777]LogEditorTransaction: Undo Change Number Pin Value
+[2023.12.19-00.46.51:631][777]MaterialEditorStats: Texture samplers: 0/16
+[2023.12.19-00.46.51:631][777]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.12.19-00.46.51:631][777]MaterialEditorStats: Shader Count: 0
+[2023.12.19-00.46.51:631][777]MaterialEditorStats: Texture samplers: 0/16
+[2023.12.19-00.46.51:631][777]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.12.19-00.46.51:631][777]MaterialEditorStats: Shader Count: 0
+[2023.12.19-00.46.51:631][777]MaterialEditorStats: Texture samplers: 0/16
+[2023.12.19-00.46.51:631][777]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2023.12.19-00.46.51:631][777]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.12.19-00.46.51:631][777]MaterialEditorStats: Shader Count: 0
+[2023.12.19-00.46.51:807][779]MaterialEditorStats: Base pass shader: 196 instructions
+[2023.12.19-00.46.51:808][779]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2023.12.19-00.46.51:808][779]MaterialEditorStats: Texture samplers: 2/16
+[2023.12.19-00.46.51:808][779]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.12.19-00.46.51:808][779]MaterialEditorStats: Shader Count: 4
+[2023.12.19-00.46.51:808][779]MaterialEditorStats: Base pass shader: 206 instructions
+[2023.12.19-00.46.51:808][779]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2023.12.19-00.46.51:808][779]MaterialEditorStats: Texture samplers: 5/16
+[2023.12.19-00.46.51:808][779]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2023.12.19-00.46.51:808][779]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.12.19-00.46.51:808][779]MaterialEditorStats: Shader Count: 4
+[2023.12.19-00.46.51:879][780]MaterialEditorStats: Base pass shader: 196 instructions
+[2023.12.19-00.46.51:879][780]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2023.12.19-00.46.51:879][780]MaterialEditorStats: Texture samplers: 2/16
+[2023.12.19-00.46.51:879][780]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.12.19-00.46.51:879][780]MaterialEditorStats: Shader Count: 4
+[2023.12.19-00.46.52:260][789]LogEditorTransaction: Undo Material Editor: Delete
+[2023.12.19-00.46.52:312][789]MaterialEditorStats: Texture samplers: 0/16
+[2023.12.19-00.46.52:312][789]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.12.19-00.46.52:312][789]MaterialEditorStats: Shader Count: 0
+[2023.12.19-00.46.52:312][789]MaterialEditorStats: Texture samplers: 0/16
+[2023.12.19-00.46.52:312][789]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.12.19-00.46.52:312][789]MaterialEditorStats: Shader Count: 0
+[2023.12.19-00.46.52:312][789]MaterialEditorStats: Texture samplers: 0/16
+[2023.12.19-00.46.52:312][789]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2023.12.19-00.46.52:312][789]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.12.19-00.46.52:312][789]MaterialEditorStats: Shader Count: 0
+[2023.12.19-00.46.52:408][791]MaterialEditorStats: Base pass shader: 196 instructions
+[2023.12.19-00.46.52:408][791]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2023.12.19-00.46.52:408][791]MaterialEditorStats: Texture samplers: 2/16
+[2023.12.19-00.46.52:408][791]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.12.19-00.46.52:408][791]MaterialEditorStats: Shader Count: 4
+[2023.12.19-00.46.52:408][791]MaterialEditorStats: Base pass shader: 210 instructions
+[2023.12.19-00.46.52:408][791]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2023.12.19-00.46.52:408][791]MaterialEditorStats: Texture samplers: 6/16
+[2023.12.19-00.46.52:408][791]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2023.12.19-00.46.52:408][791]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.12.19-00.46.52:408][791]MaterialEditorStats: Shader Count: 4
+[2023.12.19-00.46.52:445][793]MaterialEditorStats: Base pass shader: 196 instructions
+[2023.12.19-00.46.52:445][793]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2023.12.19-00.46.52:445][793]MaterialEditorStats: Texture samplers: 2/16
+[2023.12.19-00.46.52:445][793]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.12.19-00.46.52:445][793]MaterialEditorStats: Shader Count: 4
+[2023.12.19-00.48.13:209][ 72]LogViewport: Scene viewport resized to 152x162, mode Windowed.
+[2023.12.19-00.48.22:633][571]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2023.12.19-00.48.24:948][571]LogSlate: Window 'Delete Assets' being destroyed
+[2023.12.19-00.48.24:981][571]LogSlate: Window '_M_FGramophone' being destroyed
+[2023.12.19-00.48.24:997][571]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2023.12.19-00.48.24:997][571]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.19-00.48.25:005][571]LogUObjectGlobals: Force Deleting 5 Package(s):
+	Asset Name: /Game/Textures/GTest_1/Texture_BaseColor.Texture_BaseColor
+	Asset Type: Texture2D
+	Asset Name: /Game/Textures/GTest_1/Texture_Height.Texture_Height
+	Asset Type: Texture2D
+	Asset Name: /Game/Textures/GTest_1/Texture_Metallic.Texture_Metallic
+	Asset Type: Texture2D
+	Asset Name: /Game/Textures/GTest_1/Texture_Normal.Texture_Normal
+	Asset Type: Texture2D
+	Asset Name: /Game/Textures/GTest_1/Texture_Roughness.Texture_Roughness
+	Asset Type: Texture2D
+[2023.12.19-00.48.25:260][571]LogMaterial: Warning: [AssetLog] /Engine/Transient._M_FGramophone: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2023.12.19-00.48.25:262][571]LogMaterial: Warning: [AssetLog] /Engine/Transient._M_FGramophone: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2023.12.19-00.48.25:264][571]LogMaterial: Warning: [AssetLog] /Engine/Transient._M_FGramophone: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2023.12.19-00.48.25:265][571]LogMaterial: Warning: [AssetLog] /Game/Materials/_M_FGramophone._M_FGramophone: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2023.12.19-00.48.25:267][571]LogMaterial: Warning: [AssetLog] /Game/Materials/_M_FGramophone._M_FGramophone: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2023.12.19-00.48.25:268][571]LogMaterial: Warning: [AssetLog] /Game/Materials/_M_FGramophone._M_FGramophone: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2023.12.19-00.48.25:270][571]LogMaterial: Warning: [AssetLog] /Game/Materials/_M_FGramophone._M_FGramophone: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2023.12.19-00.48.25:271][571]LogMaterial: Warning: [AssetLog] /Game/Materials/_M_FGramophone._M_FGramophone: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2023.12.19-00.48.25:273][571]LogMaterial: Warning: [AssetLog] /Game/Materials/_M_FGramophone._M_FGramophone: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2023.12.19-00.48.25:274][571]LogMaterial: Warning: [AssetLog] /Game/Materials/_M_FGramophone._M_FGramophone: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2023.12.19-00.48.25:275][571]LogMaterial: Warning: [AssetLog] /Game/Materials/_M_FGramophone._M_FGramophone: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2023.12.19-00.48.25:277][571]LogMaterial: Warning: [AssetLog] /Game/Materials/_M_FGramophone._M_FGramophone: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2023.12.19-00.48.25:278][571]LogMaterial: Warning: [AssetLog] /Game/Materials/_M_FGramophone._M_FGramophone: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2023.12.19-00.48.25:279][571]LogMaterial: Warning: [AssetLog] /Game/Materials/_M_FGramophone._M_FGramophone: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2023.12.19-00.48.25:281][571]LogMaterial: Warning: [AssetLog] /Game/Materials/_M_FGramophone._M_FGramophone: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2023.12.19-00.48.25:282][571]LogMaterial: Warning: [AssetLog] /Game/Materials/_M_FGramophone._M_FGramophone: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2023.12.19-00.48.25:283][571]LogMaterial: Warning: [AssetLog] /Game/Materials/_M_FGramophone._M_FGramophone: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2023.12.19-00.48.25:284][571]LogMaterial: Warning: [AssetLog] /Game/Materials/_M_FGramophone._M_FGramophone: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2023.12.19-00.48.25:342][571]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2023.12.19-00.48.25:352][571]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2023.12.19-00.48.25:358][571]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2023.12.19-00.48.34:506][186]LogInterchangeEngine: [Pending] Importing
+[2023.12.19-00.48.34:506][186]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/baleksander...ges/Textures/GTest_1/Texture_BaseColor.png]
+[2023.12.19-00.48.34:507][186]LogInterchangeEngine: [Pending] Importing -  (2)
+[2023.12.19-00.48.34:507][186]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/baleksander...ges/Textures/GTest_1/Texture_Height.png]
+[2023.12.19-00.48.34:507][186]LogInterchangeEngine: [Pending] Importing -  (3)
+[2023.12.19-00.48.34:507][186]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/baleksander...ges/Textures/GTest_1/Texture_Metallic.png]
+[2023.12.19-00.48.34:508][186]LogInterchangeEngine: [Pending] Importing -  (4)
+[2023.12.19-00.48.34:509][186]LogInterchangeEngine: [Pending] Importing -  (5)
+[2023.12.19-00.48.34:536][187]LogInterchangeEngine: [Pending] Importing -  (2)
+[2023.12.19-00.48.34:536][187]LogInterchangeEngine: [Pending] Importing -  (4)
+[2023.12.19-00.48.34:536][187]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/baleksander...ges/Textures/GTest_1/Texture_Normal.png]
+[2023.12.19-00.48.34:536][187]LogInterchangeEngine: [Pending] Importing -  (2)
+[2023.12.19-00.48.34:536][187]LogInterchangeEngine: [Pending] Importing -  (3)
+[2023.12.19-00.48.34:536][187]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/baleksander...ges/Textures/GTest_1/Texture_Roughness.png]
+[2023.12.19-00.48.34:536][187]LogTexture: Display: Building textures: /Game/Textures/GTest_1/Texture_Height.Texture_Height (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 276.062484 MB), EncodeSpeed: Fast
+[2023.12.19-00.48.34:537][187]LogTexture: Display: Building textures: /Game/Textures/GTest_1/Texture_Metallic.Texture_Metallic (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 276.062484 MB), EncodeSpeed: Fast
+[2023.12.19-00.48.34:547][187]LogInterchangeEngine: [Pending] Importing -  (3)
+[2023.12.19-00.48.34:645][189]LogInterchangeEngine: [Pending] Importing -  (2)
+[2023.12.19-00.48.34:659][189]LogTexture: Display: Building textures: /Game/Textures/GTest_1/Texture_Roughness.Texture_Roughness (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 276.062484 MB), EncodeSpeed: Fast
+[2023.12.19-00.48.34:662][189]LogInterchangePipeline: Display: Auto-detected normal map
+[2023.12.19-00.48.34:687][189]LogTexture: Display: Building textures: /Game/Textures/GTest_1/Texture_BaseColor.Texture_BaseColor (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2023.12.19-00.48.34:689][189]LogTexture: Display: Building textures: /Game/Textures/GTest_1/Texture_Normal.Texture_Normal (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 302.812488 MB), EncodeSpeed: Fast
+[2023.12.19-00.48.34:737][190]LogInterchangeEngine: [Pending] Importing -  (1)
+[2023.12.19-00.48.34:775][190]LogInterchangeEngine: [Success] Import Done
+[2023.12.19-00.48.34:795][190]LogInterchangeEngine: [Success] Import Done
+[2023.12.19-00.48.55:371][308]LogSlate: Window 'Message' being destroyed
+[2023.12.19-00.48.55:378][308]Message dialog closed, result: Yes, title: Message, text: Would you like to apply the changes of the modified material to the original material?
+/Game/Materials/_M_PBR._M_PBR
+(Selecting 'No' will cause all changes to be lost!)
+[2023.12.19-00.48.55:581][308]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2023.12.19-00.48.55:737][308]LogShaderCompilers: Display: ================================================
+[2023.12.19-00.48.55:737][308]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.12.19-00.48.55:737][308]LogShaderCompilers: Display: Total job queries 1,149, among them cache hits 969 (84.33%)
+[2023.12.19-00.48.55:738][308]LogShaderCompilers: Display: Tracking 180 distinct input hashes that result in 99 distinct outputs (55.00%)
+[2023.12.19-00.48.55:738][308]LogShaderCompilers: Display: RAM used: 3.92 MiB of 1.60 GiB budget. Usage: 0.24%
+[2023.12.19-00.48.55:738][308]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.12.19-00.48.55:738][308]LogShaderCompilers: Display: Shaders Compiled: 80
+[2023.12.19-00.48.55:738][308]LogShaderCompilers: Display: Jobs assigned 80, completed 80 (100%)
+[2023.12.19-00.48.55:738][308]LogShaderCompilers: Display: Average time worker was idle: 170.40 s
+[2023.12.19-00.48.55:738][308]LogShaderCompilers: Display: Time job spent in pending queue: average 0.38 s, longest 1.47 s
+[2023.12.19-00.48.55:738][308]LogShaderCompilers: Display: Job execution time: average 0.61 s, max 2.74 s
+[2023.12.19-00.48.55:738][308]LogShaderCompilers: Display: Job life time (pending + execution): average 0.98 s, max 2.75
+[2023.12.19-00.48.55:738][308]LogShaderCompilers: Display: Shader code size: average 37.66 KiB, min 5.531 KiB, max 62.992 KiB
+[2023.12.19-00.48.55:738][308]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 15.57 s
+[2023.12.19-00.48.55:738][308]LogShaderCompilers: Display: Jobs were issued in 80 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.12.19-00.48.55:738][308]LogShaderCompilers: Display: Average processing rate: 5.14 jobs/sec
+[2023.12.19-00.48.55:738][308]LogShaderCompilers: Display: Total thread time: 17.386 s
+[2023.12.19-00.48.55:738][308]LogShaderCompilers: Display: Total thread preprocess time: 1.741 s
+[2023.12.19-00.48.55:738][308]LogShaderCompilers: Display: Percentage time preprocessing: 10.01%
+[2023.12.19-00.48.55:738][308]LogShaderCompilers: Display: Effective parallelization: 1.12 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2023.12.19-00.48.55:738][308]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.12.19-00.48.55:738][308]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   10 times, average 0.28 sec, max 0.33 sec, min 0.19 sec)
+[2023.12.19-00.48.55:738][308]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    6 times, average 0.27 sec, max 0.29 sec, min 0.26 sec)
+[2023.12.19-00.48.55:738][308]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   10 times, average 0.27 sec, max 0.31 sec, min 0.22 sec)
+[2023.12.19-00.48.55:738][308]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    2 times, average 0.27 sec, max 0.27 sec, min 0.26 sec)
+[2023.12.19-00.48.55:738][308]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    2 times, average 0.26 sec, max 0.26 sec, min 0.26 sec)
+[2023.12.19-00.48.55:738][308]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.12.19-00.48.55:738][308]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 15.98% of total time (compiled   10 times, average 0.28 sec, max 0.33 sec, min 0.19 sec)
+[2023.12.19-00.48.55:738][308]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 15.65% of total time (compiled   10 times, average 0.27 sec, max 0.31 sec, min 0.22 sec)
+[2023.12.19-00.48.55:738][308]LogShaderCompilers: Display:                                                 FLumenCardVS - 9.40% of total time (compiled    6 times, average 0.27 sec, max 0.29 sec, min 0.26 sec)
+[2023.12.19-00.48.55:738][308]LogShaderCompilers: Display:                                             FDebugViewModePS - 8.03% of total time (compiled    7 times, average 0.20 sec, max 0.21 sec, min 0.19 sec)
+[2023.12.19-00.48.55:738][308]LogShaderCompilers: Display:                                             FDebugViewModeVS - 7.55% of total time (compiled    7 times, average 0.19 sec, max 0.20 sec, min 0.18 sec)
+[2023.12.19-00.48.55:738][308]LogShaderCompilers: Display: ================================================
+[2023.12.19-00.48.55:743][308]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2023.12.19-00.49.01:077][308]LogSlate: Window 'Message' being destroyed
+[2023.12.19-00.49.01:084][308]Message dialog closed, result: Yes, title: Message, text: Would you like to apply the changes of the modified material to the original material?
+/Game/Materials/_M_Silver._M_Silver
+(Selecting 'No' will cause all changes to be lost!)
+[2023.12.19-00.49.01:156][308]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2023.12.19-00.49.01:379][308]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2023.12.19-00.49.01:393][308]LogSlate: Window '_M_Silver' being destroyed
+[2023.12.19-00.49.01:394][308]LogSlate: Window '_M_Silver' being destroyed
+[2023.12.19-00.49.01:406][308]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2023.12.19-00.49.01:406][308]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.19-00.49.01:425][308]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2023.12.19-00.49.01:425][308]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.19-00.49.01:445][308]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2023.12.19-00.49.01:445][308]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.19-00.49.16:474][503]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Materials/_M_GTest1._M_GTest1
+[2023.12.19-00.49.16:475][503]LogMaterial: Warning: [AssetLog] /Engine/Transient._M_GTest1: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2023.12.19-00.49.16:477][503]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.19-00.49.16:477][503]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.19-00.49.16:640][503]LogMaterial: Warning: [AssetLog] /Engine/Transient._M_GTest1: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2023.12.19-00.49.16:642][503]LogMaterial: Warning: [AssetLog] /Engine/Transient._M_GTest1: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2023.12.19-00.49.16:664][503]MaterialEditorStats: Error: [SM6] (Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+[2023.12.19-00.49.16:664][503]MaterialEditorStats: Error: [SM6] (Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+[2023.12.19-00.49.16:664][503]MaterialEditorStats: Error: [SM6] (Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+[2023.12.19-00.49.16:664][503]MaterialEditorStats: Error: [SM6] (Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+[2023.12.19-00.49.16:675][503]LogViewport: Scene viewport resized to 376x448, mode Windowed.
+[2023.12.19-00.49.30:808][478]LogMaterial: Warning: [AssetLog] /Engine/Transient._M_GTest1: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2023.12.19-00.49.30:812][478]LogMaterial: Warning: [AssetLog] /Engine/Transient._M_GTest1: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2023.12.19-00.49.30:816][478]MaterialEditorStats: Error: [SM6] (Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+[2023.12.19-00.49.30:816][478]MaterialEditorStats: Error: [SM6] (Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+[2023.12.19-00.49.30:816][478]MaterialEditorStats: Error: [SM6] (Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+[2023.12.19-00.49.33:116][622]LogMaterialEditor: Applying material _M_GTest1
+[2023.12.19-00.49.37:702][622]LogSlate: Window 'Warning: Compilation errors in this Material' being destroyed
+[2023.12.19-00.49.37:750][622]LogMaterial: Warning: [AssetLog] /Engine/Transient._M_GTest1: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2023.12.19-00.49.37:767][622]LogMaterial: Warning: [AssetLog] /Game/Materials/_M_GTest1._M_GTest1: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2023.12.19-00.49.37:777][622]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2023.12.19-00.49.37:837][622]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2023.12.19-00.49.45:376][132]LogMaterial: Warning: [AssetLog] /Engine/Transient._M_GTest1: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2023.12.19-00.49.45:381][132]LogMaterial: Warning: [AssetLog] /Engine/Transient._M_GTest1: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2023.12.19-00.49.45:384][132]MaterialEditorStats: Error: [SM6] (Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+[2023.12.19-00.49.45:384][132]MaterialEditorStats: Error: [SM6] (Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+[2023.12.19-00.49.52:486][631]LogMaterial: Warning: [AssetLog] /Engine/Transient._M_GTest1: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2023.12.19-00.49.52:491][631]LogMaterial: Warning: [AssetLog] /Engine/Transient._M_GTest1: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2023.12.19-00.49.52:494][631]MaterialEditorStats: Error: [SM6] (Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+[2023.12.19-00.49.58:249][ 47]MaterialEditorStats: Texture samplers: 0/16
+[2023.12.19-00.49.58:249][ 47]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2023.12.19-00.49.58:249][ 47]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.12.19-00.49.58:249][ 47]MaterialEditorStats: Shader Count: 0
+[2023.12.19-00.49.58:321][ 48]MaterialEditorStats: Base pass shader: 210 instructions
+[2023.12.19-00.49.58:321][ 48]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2023.12.19-00.49.58:321][ 48]MaterialEditorStats: Texture samplers: 6/16
+[2023.12.19-00.49.58:321][ 48]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2023.12.19-00.49.58:321][ 48]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.12.19-00.49.58:321][ 48]MaterialEditorStats: Shader Count: 4
+[2023.12.19-00.49.59:630][123]LogMaterialEditor: Applying material _M_GTest1
+[2023.12.19-00.49.59:746][123]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2023.12.19-00.49.59:910][123]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2023.12.19-00.49.59:918][123]MaterialEditorStats: Texture samplers: 4/16
+[2023.12.19-00.49.59:918][123]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2023.12.19-00.49.59:918][123]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.12.19-00.49.59:918][123]MaterialEditorStats: Shader Count: 2
+[2023.12.19-00.49.59:971][124]MaterialEditorStats: Base pass shader: 210 instructions
+[2023.12.19-00.49.59:971][124]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2023.12.19-00.49.59:971][124]MaterialEditorStats: Texture samplers: 6/16
+[2023.12.19-00.49.59:971][124]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2023.12.19-00.49.59:971][124]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.12.19-00.49.59:971][124]MaterialEditorStats: Shader Count: 4
+[2023.12.19-00.50.13:710][987]Cmd: TRANSACTION UNDO
+[2023.12.19-00.50.13:710][987]LogEditorTransaction: Undo Create Actors
+[2023.12.19-00.52.44:441][ 30]LogDerivedDataCache: C:/Users/baleksander1/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:04.111 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 2841 files in 4246 folders with total size 243 MiB.
+[2023.12.19-00.55.08:478][769]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2023.12.19-00.55.08:508][769]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Main_Auto4
+[2023.12.19-00.55.08:509][769]LogSavePackage: Moving '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Main_Auto42116A5B54E51DFAE7D208EB6C5AC5B28.tmp' to '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Autosaves/Game/Main_Auto4.umap'
+[2023.12.19-00.55.08:510][769]LogAssetRegistry: Warning: ScanPathsSynchronous: ../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Autosaves/Game/Main_Auto4.umap is in the /Temp path, will not scan.
+[2023.12.19-00.55.08:510][769]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Main' took 0.046
+[2023.12.19-00.55.08:510][769]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.046
+[2023.12.19-00.55.08:511][769]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Textures/Gramophone/Texture_BaseColor] ([1] browsable assets)...
+[2023.12.19-00.55.08:511][769]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/Gramophone/Texture_BaseColor]
+[2023.12.19-00.55.08:520][769]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Textures/Gramophone/Texture_BaseColor_Auto4
+[2023.12.19-00.55.08:520][769]LogSavePackage: Moving '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Texture_BaseColor_Auto47BF21FD04F88D515C6CF318CD62433B7.tmp' to '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Autosaves/Game/Textures/Gramophone/Texture_BaseColor_Auto4.uasset'
+[2023.12.19-00.55.08:553][769]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Textures/Gramophone/Texture_Height] ([1] browsable assets)...
+[2023.12.19-00.55.08:553][769]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/Gramophone/Texture_Height]
+[2023.12.19-00.55.08:556][769]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Textures/Gramophone/Texture_Height_Auto4
+[2023.12.19-00.55.08:556][769]LogSavePackage: Moving '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Texture_Height_Auto4C42FB9224335C9A662EAE2BAD0AC8673.tmp' to '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Autosaves/Game/Textures/Gramophone/Texture_Height_Auto4.uasset'
+[2023.12.19-00.55.08:558][769]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Textures/Gramophone/Texture_Metallic] ([1] browsable assets)...
+[2023.12.19-00.55.08:558][769]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/Gramophone/Texture_Metallic]
+[2023.12.19-00.55.08:561][769]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Textures/Gramophone/Texture_Metallic_Auto4
+[2023.12.19-00.55.08:561][769]LogSavePackage: Moving '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Texture_Metallic_Auto42F42C8B542452DCA7202AE802356C66A.tmp' to '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Autosaves/Game/Textures/Gramophone/Texture_Metallic_Auto4.uasset'
+[2023.12.19-00.55.08:562][769]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Textures/Gramophone/Texture_Normal] ([1] browsable assets)...
+[2023.12.19-00.55.08:562][769]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/Gramophone/Texture_Normal]
+[2023.12.19-00.55.08:571][769]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Textures/Gramophone/Texture_Normal_Auto4
+[2023.12.19-00.55.08:571][769]LogSavePackage: Moving '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Texture_Normal_Auto4BB3851134AB46CDA5AC46683C95A84CD.tmp' to '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Autosaves/Game/Textures/Gramophone/Texture_Normal_Auto4.uasset'
+[2023.12.19-00.55.08:572][769]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Textures/Gramophone/Texture_Roughness] ([1] browsable assets)...
+[2023.12.19-00.55.08:572][769]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/Gramophone/Texture_Roughness]
+[2023.12.19-00.55.08:575][769]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Textures/Gramophone/Texture_Roughness_Auto4
+[2023.12.19-00.55.08:575][769]LogSavePackage: Moving '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Texture_Roughness_Auto4C56A59024444165F48FAD2B5D7D015C4.tmp' to '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Autosaves/Game/Textures/Gramophone/Texture_Roughness_Auto4.uasset'
+[2023.12.19-00.55.08:576][769]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/_M_FGramophone] ([1] browsable assets)...
+[2023.12.19-00.55.08:590][769]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Materials/_M_FGramophone._M_FGramophone]
+[2023.12.19-00.55.08:590][769]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/_M_FGramophone]
+[2023.12.19-00.55.08:592][769]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Materials/_M_FGramophone_Auto4
+[2023.12.19-00.55.08:592][769]LogSavePackage: Moving '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/_M_FGramophone_Auto479C9CEC7488F0278F6DC708B04F19EE3.tmp' to '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Autosaves/Game/Materials/_M_FGramophone_Auto4.uasset'
+[2023.12.19-00.55.08:593][769]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Models/Gramophone_Test] ([1] browsable assets)...
+[2023.12.19-00.55.08:593][769]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Gramophone_Test]
+[2023.12.19-00.55.08:639][769]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Models/Gramophone_Test_Auto4
+[2023.12.19-00.55.08:639][769]LogSavePackage: Moving '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Gramophone_Test_Auto49C0AFDE640AE70212B15E78285A1555E.tmp' to '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Autosaves/Game/Models/Gramophone_Test_Auto4.uasset'
+[2023.12.19-00.55.08:640][769]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Models/Silver_Material] ([1] browsable assets)...
+[2023.12.19-00.55.08:640][769]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Silver_Material]
+[2023.12.19-00.55.08:641][769]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Models/Silver_Material_Auto4
+[2023.12.19-00.55.08:641][769]LogSavePackage: Moving '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Silver_Material_Auto434CA615B49B9FEAE03AAA79CEA11E650.tmp' to '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Autosaves/Game/Models/Silver_Material_Auto4.uasset'
+[2023.12.19-00.55.08:643][769]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Models/Gramophone_Material] ([1] browsable assets)...
+[2023.12.19-00.55.08:643][769]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Gramophone_Material]
+[2023.12.19-00.55.08:644][769]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Models/Gramophone_Material_Auto4
+[2023.12.19-00.55.08:644][769]LogSavePackage: Moving '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Gramophone_Material_Auto4677155FD43FDFF1DAD246E81E88F1BD7.tmp' to '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Autosaves/Game/Models/Gramophone_Material_Auto4.uasset'
+[2023.12.19-00.55.08:645][769]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Models/Black_Material] ([1] browsable assets)...
+[2023.12.19-00.55.08:645][769]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Black_Material]
+[2023.12.19-00.55.08:646][769]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Models/Black_Material_Auto4
+[2023.12.19-00.55.08:646][769]LogSavePackage: Moving '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Black_Material_Auto4E50615334B3AD5CEB0DC84AE5E842DF1.tmp' to '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Autosaves/Game/Models/Black_Material_Auto4.uasset'
+[2023.12.19-00.55.08:647][769]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/_M_PBR] ([1] browsable assets)...
+[2023.12.19-00.55.08:660][769]LogShaderCompilers: Display: ================================================
+[2023.12.19-00.55.08:660][769]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.12.19-00.55.08:660][769]LogShaderCompilers: Display: Total job queries 1,208, among them cache hits 1,028 (85.10%)
+[2023.12.19-00.55.08:660][769]LogShaderCompilers: Display: Tracking 180 distinct input hashes that result in 99 distinct outputs (55.00%)
+[2023.12.19-00.55.08:660][769]LogShaderCompilers: Display: RAM used: 3.92 MiB of 1.60 GiB budget. Usage: 0.24%
+[2023.12.19-00.55.08:660][769]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.12.19-00.55.08:660][769]LogShaderCompilers: Display: Shaders Compiled: 80
+[2023.12.19-00.55.08:660][769]LogShaderCompilers: Display: Jobs assigned 80, completed 80 (100%)
+[2023.12.19-00.55.08:660][769]LogShaderCompilers: Display: Average time worker was idle: 170.40 s
+[2023.12.19-00.55.08:660][769]LogShaderCompilers: Display: Time job spent in pending queue: average 0.38 s, longest 1.47 s
+[2023.12.19-00.55.08:660][769]LogShaderCompilers: Display: Job execution time: average 0.61 s, max 2.74 s
+[2023.12.19-00.55.08:660][769]LogShaderCompilers: Display: Job life time (pending + execution): average 0.98 s, max 2.75
+[2023.12.19-00.55.08:660][769]LogShaderCompilers: Display: Shader code size: average 37.66 KiB, min 5.531 KiB, max 62.992 KiB
+[2023.12.19-00.55.08:660][769]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 15.57 s
+[2023.12.19-00.55.08:660][769]LogShaderCompilers: Display: Jobs were issued in 80 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.12.19-00.55.08:660][769]LogShaderCompilers: Display: Average processing rate: 5.14 jobs/sec
+[2023.12.19-00.55.08:660][769]LogShaderCompilers: Display: Total thread time: 17.386 s
+[2023.12.19-00.55.08:660][769]LogShaderCompilers: Display: Total thread preprocess time: 1.741 s
+[2023.12.19-00.55.08:660][769]LogShaderCompilers: Display: Percentage time preprocessing: 10.01%
+[2023.12.19-00.55.08:660][769]LogShaderCompilers: Display: Effective parallelization: 1.12 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2023.12.19-00.55.08:660][769]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.12.19-00.55.08:660][769]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   10 times, average 0.28 sec, max 0.33 sec, min 0.19 sec)
+[2023.12.19-00.55.08:660][769]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    6 times, average 0.27 sec, max 0.29 sec, min 0.26 sec)
+[2023.12.19-00.55.08:660][769]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   10 times, average 0.27 sec, max 0.31 sec, min 0.22 sec)
+[2023.12.19-00.55.08:660][769]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    2 times, average 0.27 sec, max 0.27 sec, min 0.26 sec)
+[2023.12.19-00.55.08:660][769]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    2 times, average 0.26 sec, max 0.26 sec, min 0.26 sec)
+[2023.12.19-00.55.08:660][769]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.12.19-00.55.08:660][769]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 15.98% of total time (compiled   10 times, average 0.28 sec, max 0.33 sec, min 0.19 sec)
+[2023.12.19-00.55.08:660][769]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 15.65% of total time (compiled   10 times, average 0.27 sec, max 0.31 sec, min 0.22 sec)
+[2023.12.19-00.55.08:660][769]LogShaderCompilers: Display:                                                 FLumenCardVS - 9.40% of total time (compiled    6 times, average 0.27 sec, max 0.29 sec, min 0.26 sec)
+[2023.12.19-00.55.08:660][769]LogShaderCompilers: Display:                                             FDebugViewModePS - 8.03% of total time (compiled    7 times, average 0.20 sec, max 0.21 sec, min 0.19 sec)
+[2023.12.19-00.55.08:660][769]LogShaderCompilers: Display:                                             FDebugViewModeVS - 7.55% of total time (compiled    7 times, average 0.19 sec, max 0.20 sec, min 0.18 sec)
+[2023.12.19-00.55.08:660][769]LogShaderCompilers: Display: ================================================
+[2023.12.19-00.55.08:670][769]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Materials/_M_PBR._M_PBR]
+[2023.12.19-00.55.08:670][769]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/_M_PBR]
+[2023.12.19-00.55.08:673][769]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Materials/_M_PBR_Auto4
+[2023.12.19-00.55.08:673][769]LogSavePackage: Moving '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/_M_PBR_Auto4B97948BC46BAF47EB0405EBB00A812C6.tmp' to '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Autosaves/Game/Materials/_M_PBR_Auto4.uasset'
+[2023.12.19-00.55.08:674][769]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/_M_Silver] ([1] browsable assets)...
+[2023.12.19-00.55.08:694][769]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Materials/_M_Silver._M_Silver]
+[2023.12.19-00.55.08:694][769]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/_M_Silver]
+[2023.12.19-00.55.08:696][769]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Materials/_M_Silver_Auto4
+[2023.12.19-00.55.08:696][769]LogSavePackage: Moving '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/_M_Silver_Auto4E639DE74465744A8D5DE8EB26CFCE00E.tmp' to '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Autosaves/Game/Materials/_M_Silver_Auto4.uasset'
+[2023.12.19-00.55.08:697][769]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Materials/M_Silver] ([1] browsable assets)...
+[2023.12.19-00.55.08:697][769]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/M_Silver]
+[2023.12.19-00.55.08:698][769]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Materials/M_Silver_Auto4
+[2023.12.19-00.55.08:698][769]LogSavePackage: Moving '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/M_Silver_Auto4DECDB72D47D691D5D83C59ACC1A76CDC.tmp' to '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Autosaves/Game/Materials/M_Silver_Auto4.uasset'
+[2023.12.19-00.55.08:699][769]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/_M_GTest1] ([1] browsable assets)...
+[2023.12.19-00.55.08:719][769]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Materials/_M_GTest1._M_GTest1]
+[2023.12.19-00.55.08:719][769]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/_M_GTest1]
+[2023.12.19-00.55.08:722][769]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Materials/_M_GTest1_Auto4
+[2023.12.19-00.55.08:722][769]LogSavePackage: Moving '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/_M_GTest1_Auto4D18744E24B532AD6FE9CE3B902B3392E.tmp' to '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Autosaves/Game/Materials/_M_GTest1_Auto4.uasset'
+[2023.12.19-00.55.08:723][769]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Materials/M_Gramophone] ([1] browsable assets)...
+[2023.12.19-00.55.08:723][769]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/M_Gramophone]
+[2023.12.19-00.55.08:725][769]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Materials/M_Gramophone_Auto4
+[2023.12.19-00.55.08:725][769]LogSavePackage: Moving '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/M_Gramophone_Auto4E3214FDC4438F7692B6FE9A460D0C681.tmp' to '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Autosaves/Game/Materials/M_Gramophone_Auto4.uasset'
+[2023.12.19-00.55.08:726][769]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/M_GTest1] ([1] browsable assets)...
+[2023.12.19-00.55.08:732][769]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/Materials/M_GTest1.M_GTest1]
+[2023.12.19-00.55.08:732][769]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/M_GTest1]
+[2023.12.19-00.55.08:734][769]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Materials/M_GTest1_Auto4
+[2023.12.19-00.55.08:734][769]LogSavePackage: Moving '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/M_GTest1_Auto4917F9B084828B256E00D1388BE07315B.tmp' to '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Autosaves/Game/Materials/M_GTest1_Auto4.uasset'
+[2023.12.19-00.55.08:735][769]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/GTest_1/Texture_BaseColor] ([1] browsable assets)...
+[2023.12.19-00.55.08:737][769]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/GTest_1/Texture_BaseColor.Texture_BaseColor]
+[2023.12.19-00.55.08:737][769]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/GTest_1/Texture_BaseColor]
+[2023.12.19-00.55.08:748][769]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Textures/GTest_1/Texture_BaseColor_Auto4
+[2023.12.19-00.55.08:748][769]LogSavePackage: Moving '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Texture_BaseColor_Auto46779E8BF4288379FEF75B6A002B539BC.tmp' to '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Autosaves/Game/Textures/GTest_1/Texture_BaseColor_Auto4.uasset'
+[2023.12.19-00.55.08:749][769]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/GTest_1/Texture_Height] ([1] browsable assets)...
+[2023.12.19-00.55.08:751][769]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/GTest_1/Texture_Height.Texture_Height]
+[2023.12.19-00.55.08:752][769]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/GTest_1/Texture_Height]
+[2023.12.19-00.55.08:755][769]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Textures/GTest_1/Texture_Height_Auto4
+[2023.12.19-00.55.08:755][769]LogSavePackage: Moving '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Texture_Height_Auto4558BA12E4CEBA4D0CDE9999A3880DD23.tmp' to '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Autosaves/Game/Textures/GTest_1/Texture_Height_Auto4.uasset'
+[2023.12.19-00.55.08:756][769]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/GTest_1/Texture_Metallic] ([1] browsable assets)...
+[2023.12.19-00.55.08:759][769]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/GTest_1/Texture_Metallic.Texture_Metallic]
+[2023.12.19-00.55.08:759][769]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/GTest_1/Texture_Metallic]
+[2023.12.19-00.55.08:762][769]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Textures/GTest_1/Texture_Metallic_Auto4
+[2023.12.19-00.55.08:762][769]LogSavePackage: Moving '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Texture_Metallic_Auto49369909B41B43DF2B9CCEFB31D130E1D.tmp' to '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Autosaves/Game/Textures/GTest_1/Texture_Metallic_Auto4.uasset'
+[2023.12.19-00.55.08:764][769]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/GTest_1/Texture_Normal] ([1] browsable assets)...
+[2023.12.19-00.55.08:766][769]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/GTest_1/Texture_Normal.Texture_Normal]
+[2023.12.19-00.55.08:766][769]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/GTest_1/Texture_Normal]
+[2023.12.19-00.55.08:777][769]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Textures/GTest_1/Texture_Normal_Auto4
+[2023.12.19-00.55.08:777][769]LogSavePackage: Moving '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Texture_Normal_Auto490E1F9DD457B3917E28439AA889A52A9.tmp' to '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Autosaves/Game/Textures/GTest_1/Texture_Normal_Auto4.uasset'
+[2023.12.19-00.55.08:778][769]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/GTest_1/Texture_Roughness] ([1] browsable assets)...
+[2023.12.19-00.55.08:781][769]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/GTest_1/Texture_Roughness.Texture_Roughness]
+[2023.12.19-00.55.08:781][769]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/GTest_1/Texture_Roughness]
+[2023.12.19-00.55.08:784][769]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Textures/GTest_1/Texture_Roughness_Auto4
+[2023.12.19-00.55.08:784][769]LogSavePackage: Moving '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Texture_Roughness_Auto466F26C7443EC3815EE0B09A64E499B6C.tmp' to '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Autosaves/Game/Textures/GTest_1/Texture_Roughness_Auto4.uasset'
+[2023.12.19-00.55.08:786][769]LogFileHelpers: Auto-saving content packages took 0.276
+[2023.12.19-00.55.08:863][770]MaterialEditorStats: Base pass shader: 210 instructions
+[2023.12.19-00.55.08:863][770]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2023.12.19-00.55.08:863][770]MaterialEditorStats: MaxSampler: 259 instructions
+[2023.12.19-00.55.08:863][770]MaterialEditorStats: Texture samplers: 7/16
+[2023.12.19-00.55.08:863][770]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2023.12.19-00.55.08:863][770]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.12.19-00.55.08:863][770]MaterialEditorStats: Shader Count: 23
+[2023.12.19-00.57.00:126][367]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.19-00.57.00:193][367]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Main" FILE="../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Content/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.12.19-00.57.00:215][367]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2023.12.19-00.57.00:226][367]LogSavePackage: Moving output files for package: /Game/Main
+[2023.12.19-00.57.00:227][367]LogSavePackage: Moving '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Main99B53B604D61A6336AE5C598EAAC7E25.tmp' to '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Content/Main.umap'
+[2023.12.19-00.57.00:231][367]LogFileHelpers: Saving map 'Main' took 0.038
+[2023.12.19-00.57.00:239][367]LogFileHelpers: InternalPromptForCheckoutAndSave took 111 ms (total: 488 ms)
+[2023.12.19-00.57.00:240][367]AssetCheck: New page: Asset Save: Main
+[2023.12.19-00.57.00:240][367]LogContentValidation: Display: Validating /Script/Engine.World /Game/Main.Main
