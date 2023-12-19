@@ -1459,3 +1459,280 @@ LogConfig: Set CVar [[r.setres:1280x720]]
 [2023.12.19-06.44.54:503][800]AssetCheck: New page: Asset Save: Main
 [2023.12.19-06.44.54:503][800]LogContentValidation: Display: Validating /Script/Engine.World /Game/Main.Main
 [2023.12.19-06.47.07:913][387]LogSlate: Took 0.000107 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.12.19-06.50.05:546][130]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/AGA309-Maya/scenes/Gramophone_WithoutRecord.fbx)
+[2023.12.19-06.50.05:560][130]LogFbx: Loading FBX Scene from ../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/AGA309-Maya/scenes/Gramophone_WithoutRecord.fbx
+[2023.12.19-06.50.05:632][130]LogFbx: FBX Scene Loaded Succesfully
+[2023.12.19-06.50.07:033][130]LogSlate: Window 'FBX Import Options' being destroyed
+[2023.12.19-06.50.07:092][130]LogFbx: Display: Triangulating static mesh Gramophone
+[2023.12.19-06.50.09:630][130]LogStaticMesh: Display: Building static mesh Gramophone_WithoutRecord...
+[2023.12.19-06.50.10:636][130]LogStaticMesh: Built static mesh [1.01s] /Game/Models/Gramophone_WithoutRecord.Gramophone_WithoutRecord
+[2023.12.19-06.50.10:821][130]LogStaticMesh: Warning: Gramophone_WithoutRecord has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2023.12.19-06.50.10:821][130]LogStaticMesh: Warning: Gramophone_WithoutRecord has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2023.12.19-06.50.11:030][130]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2023.12.19-06.50.11:030][130]FBXImport: Warning: Gramophone_WithoutRecord has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2023.12.19-06.50.11:030][130]FBXImport: Warning: Gramophone_WithoutRecord has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2023.12.19-06.50.15:585][313]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Gramophone_WithoutRecord.Gramophone_WithoutRecord
+[2023.12.19-06.50.15:585][313]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Gramophone_WithoutRecord.Gramophone_WithoutRecord
+[2023.12.19-06.50.15:586][313]LogActorFactory: Actor Factory spawned StaticMesh /Game/Models/Gramophone_WithoutRecord.Gramophone_WithoutRecord as actor: StaticMeshActor /Game/Main.Main:PersistentLevel.StaticMeshActor_12
+[2023.12.19-06.50.15:959][338]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Gramophone_WithoutRecord.Gramophone_WithoutRecord
+[2023.12.19-06.50.15:959][338]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Gramophone_WithoutRecord.Gramophone_WithoutRecord
+[2023.12.19-06.50.15:960][338]LogActorFactory: Actor Factory spawned StaticMesh /Game/Models/Gramophone_WithoutRecord.Gramophone_WithoutRecord as actor: StaticMeshActor /Game/Main.Main:PersistentLevel.StaticMeshActor_14
+[2023.12.19-06.50.20:640][650]Cmd: DELETE
+[2023.12.19-06.50.20:640][650]Cmd: ACTOR DELETE
+[2023.12.19-06.50.20:644][650]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.12.19-06.50.20:658][650]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2023.12.19-06.50.20:660][650]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2023.12.19-06.51.01:005][585]LogSlate: Window 'Message Log' being destroyed
+[2023.12.19-06.51.01:013][585]LogSlate: Window 'Message Log' being destroyed
+[2023.12.19-06.51.19:819][979]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/AGA309-Maya/scenes/Record.fbx)
+[2023.12.19-06.51.19:825][979]LogFbx: Loading FBX Scene from ../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/AGA309-Maya/scenes/Record.fbx
+[2023.12.19-06.51.19:831][979]LogFbx: FBX Scene Loaded Succesfully
+[2023.12.19-06.51.21:280][979]LogSlate: Window 'FBX Import Options' being destroyed
+[2023.12.19-06.51.21:353][979]LogFbx: Display: Triangulating static mesh Record
+[2023.12.19-06.51.21:474][979]LogStaticMesh: Display: Building static mesh Record...
+[2023.12.19-06.51.21:528][979]LogStaticMesh: Built static mesh [0.05s] /Game/Models/Record.Record
+[2023.12.19-06.51.21:578][979]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2023.12.19-06.51.24:470][123]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Record.Record
+[2023.12.19-06.51.24:470][123]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Record.Record
+[2023.12.19-06.51.24:470][123]LogActorFactory: Actor Factory spawned StaticMesh /Game/Models/Record.Record as actor: StaticMeshActor /Game/Main.Main:PersistentLevel.StaticMeshActor_23
+[2023.12.19-06.51.24:783][149]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Record.Record
+[2023.12.19-06.51.24:783][149]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Record.Record
+[2023.12.19-06.51.24:784][149]LogActorFactory: Actor Factory spawned StaticMesh /Game/Models/Record.Record as actor: StaticMeshActor /Game/Main.Main:PersistentLevel.StaticMeshActor_25
+[2023.12.19-06.51.54:828][ 15]LogSlate: Window 'Message Log' being destroyed
+[2023.12.19-06.51.54:836][ 15]LogSlate: Window 'Message Log' being destroyed
+[2023.12.19-06.52.14:619][394]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/Materials/M_Gramophone.M_Gramophone
+[2023.12.19-06.52.14:620][394]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.19-06.52.14:620][394]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.19-06.52.14:814][394]LogViewport: Scene viewport resized to 1335x902, mode Windowed.
+[2023.12.19-06.52.28:062][374]Cmd: DELETE
+[2023.12.19-06.52.28:062][374]Cmd: ACTOR DELETE
+[2023.12.19-06.52.28:065][374]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.12.19-06.52.28:079][374]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2023.12.19-06.52.28:081][374]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2023.12.19-06.52.41:073][250]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Record.Record
+[2023.12.19-06.52.41:073][250]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Record.Record
+[2023.12.19-06.52.41:074][250]LogActorFactory: Actor Factory spawned StaticMesh /Game/Models/Record.Record as actor: StaticMeshActor /Game/Main.Main:PersistentLevel.StaticMeshActor_26
+[2023.12.19-06.52.41:390][274]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Record.Record
+[2023.12.19-06.52.41:390][274]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Record.Record
+[2023.12.19-06.52.41:391][274]LogActorFactory: Actor Factory spawned StaticMesh /Game/Models/Record.Record as actor: StaticMeshActor /Game/Main.Main:PersistentLevel.StaticMeshActor_28
+[2023.12.19-06.53.32:347][675]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Record.Record
+[2023.12.19-06.53.32:347][675]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Record.Record
+[2023.12.19-06.53.32:348][675]LogActorFactory: Actor Factory spawned StaticMesh /Game/Models/Record.Record as actor: StaticMeshActor /Game/Main.Main:PersistentLevel.StaticMeshActor_30
+[2023.12.19-06.53.32:918][717]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Record.Record
+[2023.12.19-06.53.32:918][717]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Record.Record
+[2023.12.19-06.53.32:919][717]LogActorFactory: Actor Factory spawned StaticMesh /Game/Models/Record.Record as actor: StaticMeshActor /Game/Main.Main:PersistentLevel.StaticMeshActor_32
+[2023.12.19-06.53.36:142][923]Cmd: DELETE
+[2023.12.19-06.53.36:142][923]Cmd: ACTOR DELETE
+[2023.12.19-06.53.36:145][923]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.12.19-06.53.36:157][923]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2023.12.19-06.53.36:160][923]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2023.12.19-06.53.38:289][ 64]Cmd: DELETE
+[2023.12.19-06.53.38:289][ 64]Cmd: ACTOR DELETE
+[2023.12.19-06.53.38:291][ 64]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.12.19-06.53.38:305][ 64]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2023.12.19-06.53.38:307][ 64]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2023.12.19-06.53.40:185][144]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Record.Record
+[2023.12.19-06.53.40:185][144]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Record.Record
+[2023.12.19-06.53.40:185][144]LogActorFactory: Actor Factory spawned StaticMesh /Game/Models/Record.Record as actor: StaticMeshActor /Game/Main.Main:PersistentLevel.StaticMeshActor_33
+[2023.12.19-06.53.40:582][173]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Record.Record
+[2023.12.19-06.53.40:582][173]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Record.Record
+[2023.12.19-06.53.40:583][173]LogActorFactory: Actor Factory spawned StaticMesh /Game/Models/Record.Record as actor: StaticMeshActor /Game/Main.Main:PersistentLevel.StaticMeshActor_35
+[2023.12.19-06.53.51:566][911]Cmd: TRANSACTION UNDO
+[2023.12.19-06.53.51:566][911]LogEditorTransaction: Undo Create Actors
+[2023.12.19-06.53.58:686][352]Cmd: TRANSACTION UNDO
+[2023.12.19-06.53.58:686][352]LogEditorTransaction: Undo Create Actors
+[2023.12.19-06.54.40:090][932]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/AGA309-Maya/scenes/Gramophone_WithRecord.fbx)
+[2023.12.19-06.54.40:104][932]LogFbx: Loading FBX Scene from ../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/AGA309-Maya/scenes/Gramophone_WithRecord.fbx
+[2023.12.19-06.54.40:175][932]LogFbx: FBX Scene Loaded Succesfully
+[2023.12.19-06.54.42:015][932]LogSlate: Window 'FBX Import Options' being destroyed
+[2023.12.19-06.54.42:085][932]LogFbx: Display: Triangulating static mesh Record
+[2023.12.19-06.54.42:235][932]LogFbx: Display: Triangulating static mesh Gramophone
+[2023.12.19-06.54.45:034][932]LogStaticMesh: Warning: Gramophone_WithRecord_Gramophone has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2023.12.19-06.54.45:034][932]LogStaticMesh: Warning: Gramophone_WithRecord_Gramophone has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2023.12.19-06.54.45:252][932]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2023.12.19-06.54.45:252][932]FBXImport: Warning: Gramophone_WithRecord_Gramophone has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2023.12.19-06.54.45:252][932]FBXImport: Warning: Gramophone_WithRecord_Gramophone has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2023.12.19-06.54.47:726][955]LogSlate: Window 'Message Log' being destroyed
+[2023.12.19-06.54.47:818][955]LogSlate: Window 'Message Log' being destroyed
+[2023.12.19-06.54.49:913][ 22]Cmd: DELETE
+[2023.12.19-06.54.49:913][ 22]Cmd: ACTOR DELETE
+[2023.12.19-06.54.49:917][ 22]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.12.19-06.54.49:930][ 22]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2023.12.19-06.54.49:931][ 22]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2023.12.19-06.54.52:200][173]Cmd: DELETE
+[2023.12.19-06.54.52:200][173]Cmd: ACTOR DELETE
+[2023.12.19-06.54.52:202][173]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.12.19-06.54.52:215][173]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2023.12.19-06.54.52:217][173]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2023.12.19-06.54.58:935][606]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Gramophone_WithRecord_Gramophone.Gramophone_WithRecord_Gramophone
+[2023.12.19-06.54.58:935][606]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Gramophone_WithRecord_Gramophone.Gramophone_WithRecord_Gramophone
+[2023.12.19-06.54.58:935][606]LogActorFactory: Actor Factory spawned StaticMesh /Game/Models/Gramophone_WithRecord_Gramophone.Gramophone_WithRecord_Gramophone as actor: StaticMeshActor /Game/Main.Main:PersistentLevel.StaticMeshActor_36
+[2023.12.19-06.54.59:428][648]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Gramophone_WithRecord_Gramophone.Gramophone_WithRecord_Gramophone
+[2023.12.19-06.54.59:428][648]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Gramophone_WithRecord_Gramophone.Gramophone_WithRecord_Gramophone
+[2023.12.19-06.54.59:429][648]LogActorFactory: Actor Factory spawned StaticMesh /Game/Models/Gramophone_WithRecord_Gramophone.Gramophone_WithRecord_Gramophone as actor: StaticMeshActor /Game/Main.Main:PersistentLevel.StaticMeshActor_37
+[2023.12.19-06.55.07:912][235]Cmd: DELETE
+[2023.12.19-06.55.07:912][235]Cmd: ACTOR DELETE
+[2023.12.19-06.55.07:914][235]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.12.19-06.55.07:928][235]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2023.12.19-06.55.07:930][235]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2023.12.19-06.55.09:984][261]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Gramophone_WithoutRecord.Gramophone_WithoutRecord
+[2023.12.19-06.55.09:985][261]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Gramophone_WithoutRecord.Gramophone_WithoutRecord
+[2023.12.19-06.55.09:985][261]LogActorFactory: Actor Factory spawned StaticMesh /Game/Models/Gramophone_WithoutRecord.Gramophone_WithoutRecord as actor: StaticMeshActor /Game/Main.Main:PersistentLevel.StaticMeshActor_38
+[2023.12.19-06.55.09:994][261]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Gramophone_WithoutRecord.Gramophone_WithoutRecord
+[2023.12.19-06.55.09:994][261]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Gramophone_WithoutRecord.Gramophone_WithoutRecord
+[2023.12.19-06.55.09:995][261]LogActorFactory: Actor Factory spawned StaticMesh /Game/Models/Gramophone_WithoutRecord.Gramophone_WithoutRecord as actor: StaticMeshActor /Game/Main.Main:PersistentLevel.StaticMeshActor_39
+[2023.12.19-06.55.15:074][552]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Record.Record
+[2023.12.19-06.55.15:074][552]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Record.Record
+[2023.12.19-06.55.15:075][552]LogActorFactory: Actor Factory spawned StaticMesh /Game/Models/Record.Record as actor: StaticMeshActor /Game/Main.Main:PersistentLevel.StaticMeshActor_40
+[2023.12.19-06.55.15:472][579]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Record.Record
+[2023.12.19-06.55.15:472][579]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Record.Record
+[2023.12.19-06.55.15:473][579]LogActorFactory: Actor Factory spawned StaticMesh /Game/Models/Record.Record as actor: StaticMeshActor /Game/Main.Main:PersistentLevel.StaticMeshActor_41
+[2023.12.19-06.56.13:507][828]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2023.12.19-06.56.13:518][828]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Main_Auto1
+[2023.12.19-06.56.13:519][828]LogSavePackage: Moving '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Main_Auto19E3D38E44E8F8658E28328AB4C2C8BCA.tmp' to '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Autosaves/Game/Main_Auto1.umap'
+[2023.12.19-06.56.13:521][828]LogAssetRegistry: Warning: ScanPathsSynchronous: ../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Autosaves/Game/Main_Auto1.umap is in the /Temp path, will not scan.
+[2023.12.19-06.56.13:521][828]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Main' took 0.023
+[2023.12.19-06.56.13:521][828]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.023
+[2023.12.19-06.56.13:521][828]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/Photoframes/Picture] ([1] browsable assets)...
+[2023.12.19-06.56.13:524][828]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/Photoframes/Picture.Picture]
+[2023.12.19-06.56.13:524][828]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/Photoframes/Picture]
+[2023.12.19-06.56.13:536][828]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Textures/Photoframes/Picture_Auto1
+[2023.12.19-06.56.13:536][828]LogSavePackage: Moving '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Picture_Auto1904A737E4D884787F8740DB75A25036A.tmp' to '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Autosaves/Game/Textures/Photoframes/Picture_Auto1.uasset'
+[2023.12.19-06.56.13:538][828]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/M_SquareFrames] ([1] browsable assets)...
+[2023.12.19-06.56.13:595][828]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/Materials/M_SquareFrames.M_SquareFrames]
+[2023.12.19-06.56.13:595][828]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/M_SquareFrames]
+[2023.12.19-06.56.13:597][828]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Materials/M_SquareFrames_Auto1
+[2023.12.19-06.56.13:597][828]LogSavePackage: Moving '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/M_SquareFrames_Auto1A1095A984698733160A6168645213449.tmp' to '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Autosaves/Game/Materials/M_SquareFrames_Auto1.uasset'
+[2023.12.19-06.56.13:598][828]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/M_FrameFireplace] ([1] browsable assets)...
+[2023.12.19-06.56.13:605][828]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/Materials/M_FrameFireplace.M_FrameFireplace]
+[2023.12.19-06.56.13:605][828]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/M_FrameFireplace]
+[2023.12.19-06.56.13:611][828]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2023.12.19-06.56.13:624][828]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2023.12.19-06.56.13:626][828]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Materials/M_FrameFireplace_Auto1
+[2023.12.19-06.56.13:626][828]LogSavePackage: Moving '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/M_FrameFireplace_Auto13B8049674601EC1BC5205AACC7EA8B25.tmp' to '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Autosaves/Game/Materials/M_FrameFireplace_Auto1.uasset'
+[2023.12.19-06.56.13:627][828]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Frames] ([1] browsable assets)...
+[2023.12.19-06.56.13:635][828]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Models/Frames.Frames]
+[2023.12.19-06.56.13:635][828]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Frames]
+[2023.12.19-06.56.13:638][828]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Models/Frames_Auto1
+[2023.12.19-06.56.13:638][828]LogSavePackage: Moving '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Frames_Auto17A67B5F34DB193F614D055A07EDCFF22.tmp' to '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Autosaves/Game/Models/Frames_Auto1.uasset'
+[2023.12.19-06.56.13:639][828]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/PictureFireplace_Material] ([1] browsable assets)...
+[2023.12.19-06.56.13:655][828]LogShaderCompilers: Display: ================================================
+[2023.12.19-06.56.13:655][828]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.12.19-06.56.13:655][828]LogShaderCompilers: Display: Total job queries 170, among them cache hits 81 (47.65%)
+[2023.12.19-06.56.13:655][828]LogShaderCompilers: Display: Tracking 89 distinct input hashes that result in 61 distinct outputs (68.54%)
+[2023.12.19-06.56.13:655][828]LogShaderCompilers: Display: RAM used: 1.99 MiB of 1.60 GiB budget. Usage: 0.12%
+[2023.12.19-06.56.13:655][828]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.12.19-06.56.13:655][828]LogShaderCompilers: Display: Shaders Compiled: 4
+[2023.12.19-06.56.13:655][828]LogShaderCompilers: Display: Jobs assigned 4, completed 4 (100%)
+[2023.12.19-06.56.13:655][828]LogShaderCompilers: Display: Average time worker was idle: 1.05 s
+[2023.12.19-06.56.13:655][828]LogShaderCompilers: Display: Time job spent in pending queue: average 0.07 s, longest 0.10 s
+[2023.12.19-06.56.13:655][828]LogShaderCompilers: Display: Job execution time: average 0.51 s, max 0.72 s
+[2023.12.19-06.56.13:655][828]LogShaderCompilers: Display: Job life time (pending + execution): average 0.59 s, max 0.77
+[2023.12.19-06.56.13:655][828]LogShaderCompilers: Display: Shader code size: average 69.73 KiB, min 68.09 KiB, max 71.035 KiB
+[2023.12.19-06.56.13:655][828]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 1.28 s
+[2023.12.19-06.56.13:655][828]LogShaderCompilers: Display: Jobs were issued in 4 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.12.19-06.56.13:655][828]LogShaderCompilers: Display: Average processing rate: 3.13 jobs/sec
+[2023.12.19-06.56.13:655][828]LogShaderCompilers: Display: Total thread time: 1.109 s
+[2023.12.19-06.56.13:655][828]LogShaderCompilers: Display: Total thread preprocess time: 0.1 s
+[2023.12.19-06.56.13:655][828]LogShaderCompilers: Display: Percentage time preprocessing: 9.04%
+[2023.12.19-06.56.13:655][828]LogShaderCompilers: Display: Effective parallelization: 0.87 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2023.12.19-06.56.13:655][828]LogShaderCompilers: Display: Top 2 most expensive shader types by average time:
+[2023.12.19-06.56.13:655][828]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    2 times, average 0.30 sec, max 0.31 sec, min 0.30 sec)
+[2023.12.19-06.56.13:655][828]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    2 times, average 0.25 sec, max 0.26 sec, min 0.24 sec)
+[2023.12.19-06.56.13:655][828]LogShaderCompilers: Display: Top 2 shader types by total compile time:
+[2023.12.19-06.56.13:655][828]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 54.98% of total time (compiled    2 times, average 0.30 sec, max 0.31 sec, min 0.30 sec)
+[2023.12.19-06.56.13:655][828]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 45.02% of total time (compiled    2 times, average 0.25 sec, max 0.26 sec, min 0.24 sec)
+[2023.12.19-06.56.13:655][828]LogShaderCompilers: Display: ================================================
+[2023.12.19-06.56.13:662][828]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Models/PictureFireplace_Material.PictureFireplace_Material]
+[2023.12.19-06.56.13:662][828]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/PictureFireplace_Material]
+[2023.12.19-06.56.13:664][828]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Models/PictureFireplace_Material_Auto1
+[2023.12.19-06.56.13:664][828]LogSavePackage: Moving '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/PictureFireplace_Material_Auto1AB4B701943C597AD0D7483BAE64794D0.tmp' to '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Autosaves/Game/Models/PictureFireplace_Material_Auto1.uasset'
+[2023.12.19-06.56.13:665][828]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Gramophone_WithoutRecord] ([1] browsable assets)...
+[2023.12.19-06.56.13:675][828]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Models/Gramophone_WithoutRecord.Gramophone_WithoutRecord]
+[2023.12.19-06.56.13:675][828]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Gramophone_WithoutRecord]
+[2023.12.19-06.56.13:724][828]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Models/Gramophone_WithoutRecord_Auto1
+[2023.12.19-06.56.13:724][828]LogSavePackage: Moving '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Gramophone_WithoutRecord_Auto10116DEF049CE8E50593605A1A4FC41CC.tmp' to '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Autosaves/Game/Models/Gramophone_WithoutRecord_Auto1.uasset'
+[2023.12.19-06.56.13:725][828]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Record] ([1] browsable assets)...
+[2023.12.19-06.56.13:733][828]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Models/Record.Record]
+[2023.12.19-06.56.13:733][828]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Record]
+[2023.12.19-06.56.13:740][828]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Models/Record_Auto1
+[2023.12.19-06.56.13:740][828]LogSavePackage: Moving '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Record_Auto18056BE8E4F61DD9C2B92BBBE9A416AF5.tmp' to '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Autosaves/Game/Models/Record_Auto1.uasset'
+[2023.12.19-06.56.13:742][828]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Gramophone_WithRecord_Gramophone] ([1] browsable assets)...
+[2023.12.19-06.56.13:760][828]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Models/Gramophone_WithRecord_Gramophone.Gramophone_WithRecord_Gramophone]
+[2023.12.19-06.56.13:760][828]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Gramophone_WithRecord_Gramophone]
+[2023.12.19-06.56.13:806][828]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Models/Gramophone_WithRecord_Gramophone_Auto1
+[2023.12.19-06.56.13:807][828]LogSavePackage: Moving '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Gramophone_WithRecord_Gramophone4223A1FE4A000389E5C06ABDC7EBE1E8.tmp' to '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Autosaves/Game/Models/Gramophone_WithRecord_Gramophone_Auto1.uasset'
+[2023.12.19-06.56.13:808][828]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Gramophone_WithRecord_Record] ([1] browsable assets)...
+[2023.12.19-06.56.13:817][828]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Models/Gramophone_WithRecord_Record.Gramophone_WithRecord_Record]
+[2023.12.19-06.56.13:817][828]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Gramophone_WithRecord_Record]
+[2023.12.19-06.56.13:824][828]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Models/Gramophone_WithRecord_Record_Auto1
+[2023.12.19-06.56.13:824][828]LogSavePackage: Moving '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Gramophone_WithRecord_Record_AutEFAFF7F5454008B6685387B41108ACCD.tmp' to '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Autosaves/Game/Models/Gramophone_WithRecord_Record_Auto1.uasset'
+[2023.12.19-06.56.13:825][828]LogFileHelpers: Auto-saving content packages took 0.303
+[2023.12.19-07.02.34:014][639]Cmd: DELETE
+[2023.12.19-07.02.34:014][639]Cmd: ACTOR DELETE
+[2023.12.19-07.02.34:020][639]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.12.19-07.02.34:036][639]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2023.12.19-07.02.34:038][639]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2023.12.19-07.02.41:839][876]LogSlate: Window 'Message' being destroyed
+[2023.12.19-07.02.41:845][876]Message dialog closed, result: Yes, title: Message, text: Do you want to overwrite the existing asset?
+
+An asset already exists at the import location: /Game/Models/Record
+[2023.12.19-07.02.41:845][876]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/AGA309-Maya/scenes/Record.fbx)
+[2023.12.19-07.02.41:846][876]LogEditorFactories: Performing atomic reimport of [C:/Users/baleksander1/Workplace/AGA309-Assessment-2/AGA309-Maya/scenes/Record.fbx]
+[2023.12.19-07.02.41:851][876]LogFbx: Loading FBX Scene from C:/Users/baleksander1/Workplace/AGA309-Assessment-2/AGA309-Maya/scenes/Record.fbx
+[2023.12.19-07.02.41:861][876]LogFbx: FBX Scene Loaded Succesfully
+[2023.12.19-07.02.41:929][876]LogFbx: Display: Triangulating static mesh Record
+[2023.12.19-07.02.42:062][876]LogStaticMesh: Display: Building static mesh Record...
+[2023.12.19-07.02.42:159][876]LogStaticMesh: Built static mesh [0.10s] /Game/Models/Record.Record
+[2023.12.19-07.02.51:899][876]LogSlate: Window 'Reimport Material Conflicts Resolution' being destroyed
+[2023.12.19-07.02.51:910][876]LogEditorFactories: -- imported successfully
+[2023.12.19-07.02.51:911][876]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2023.12.19-07.02.51:953][876]LogShaderCompilers: Display: ================================================
+[2023.12.19-07.02.51:953][876]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.12.19-07.02.51:953][876]LogShaderCompilers: Display: Total job queries 172, among them cache hits 83 (48.26%)
+[2023.12.19-07.02.51:953][876]LogShaderCompilers: Display: Tracking 89 distinct input hashes that result in 61 distinct outputs (68.54%)
+[2023.12.19-07.02.51:953][876]LogShaderCompilers: Display: RAM used: 1.99 MiB of 1.60 GiB budget. Usage: 0.12%
+[2023.12.19-07.02.51:953][876]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.12.19-07.02.51:953][876]LogShaderCompilers: Display: Shaders Compiled: 4
+[2023.12.19-07.02.51:953][876]LogShaderCompilers: Display: Jobs assigned 4, completed 4 (100%)
+[2023.12.19-07.02.51:953][876]LogShaderCompilers: Display: Average time worker was idle: 1.05 s
+[2023.12.19-07.02.51:953][876]LogShaderCompilers: Display: Time job spent in pending queue: average 0.07 s, longest 0.10 s
+[2023.12.19-07.02.51:953][876]LogShaderCompilers: Display: Job execution time: average 0.51 s, max 0.72 s
+[2023.12.19-07.02.51:953][876]LogShaderCompilers: Display: Job life time (pending + execution): average 0.59 s, max 0.77
+[2023.12.19-07.02.51:953][876]LogShaderCompilers: Display: Shader code size: average 69.73 KiB, min 68.09 KiB, max 71.035 KiB
+[2023.12.19-07.02.51:953][876]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 1.28 s
+[2023.12.19-07.02.51:953][876]LogShaderCompilers: Display: Jobs were issued in 4 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.12.19-07.02.51:953][876]LogShaderCompilers: Display: Average processing rate: 3.13 jobs/sec
+[2023.12.19-07.02.51:953][876]LogShaderCompilers: Display: Total thread time: 1.109 s
+[2023.12.19-07.02.51:953][876]LogShaderCompilers: Display: Total thread preprocess time: 0.1 s
+[2023.12.19-07.02.51:953][876]LogShaderCompilers: Display: Percentage time preprocessing: 9.04%
+[2023.12.19-07.02.51:953][876]LogShaderCompilers: Display: Effective parallelization: 0.87 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2023.12.19-07.02.51:953][876]LogShaderCompilers: Display: Top 2 most expensive shader types by average time:
+[2023.12.19-07.02.51:953][876]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    2 times, average 0.30 sec, max 0.31 sec, min 0.30 sec)
+[2023.12.19-07.02.51:953][876]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    2 times, average 0.25 sec, max 0.26 sec, min 0.24 sec)
+[2023.12.19-07.02.51:953][876]LogShaderCompilers: Display: Top 2 shader types by total compile time:
+[2023.12.19-07.02.51:953][876]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 54.98% of total time (compiled    2 times, average 0.30 sec, max 0.31 sec, min 0.30 sec)
+[2023.12.19-07.02.51:953][876]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 45.02% of total time (compiled    2 times, average 0.25 sec, max 0.26 sec, min 0.24 sec)
+[2023.12.19-07.02.51:953][876]LogShaderCompilers: Display: ================================================
+[2023.12.19-07.03.00:923][134]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Record.Record
+[2023.12.19-07.03.00:923][134]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Record.Record
+[2023.12.19-07.03.00:924][134]LogActorFactory: Actor Factory spawned StaticMesh /Game/Models/Record.Record as actor: StaticMeshActor /Game/Main.Main:PersistentLevel.StaticMeshActor_42
+[2023.12.19-07.03.01:237][163]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Record.Record
+[2023.12.19-07.03.01:237][163]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Record.Record
+[2023.12.19-07.03.01:237][163]LogActorFactory: Actor Factory spawned StaticMesh /Game/Models/Record.Record as actor: StaticMeshActor /Game/Main.Main:PersistentLevel.StaticMeshActor_43
+[2023.12.19-07.03.14:416][ 95]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.19-07.03.14:490][ 95]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Main" FILE="../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Content/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.12.19-07.03.14:512][ 95]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2023.12.19-07.03.14:524][ 95]LogSavePackage: Moving output files for package: /Game/Main
+[2023.12.19-07.03.14:525][ 95]LogSavePackage: Moving '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Saved/Main834F25B74FEC9AFEE14C7EB5F6292DBB.tmp' to '../../../../../../Users/baleksander1/Workplace/AGA309-Assessment-2/Unreal/A3/Content/Main.umap'
+[2023.12.19-07.03.14:529][ 95]LogFileHelpers: Saving map 'Main' took 0.040
+[2023.12.19-07.03.14:554][ 95]LogFileHelpers: InternalPromptForCheckoutAndSave took 139 ms (total: 494 ms)
+[2023.12.19-07.03.14:556][ 95]AssetCheck: New page: Asset Save: Main
+[2023.12.19-07.03.14:556][ 95]LogContentValidation: Display: Validating /Script/Engine.World /Game/Main.Main
+[2023.12.19-07.03.17:977][365]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2023.12.19-07.03.20:724][668]LogAssetEditorSubsystem: Opening Asset editor for LevelSequence /Game/CameraFly.CameraFly
+[2023.12.19-07.03.21:274][668]LogSlate: Took 0.001370 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2023.12.19-07.04.19:930][ 98]Cmd: TRANSACTION UNDO
+[2023.12.19-07.04.19:930][ 98]LogEditorTransaction: Undo Set Rotation
+[2023.12.19-07.04.20:719][125]Cmd: TRANSACTION UNDO
+[2023.12.19-07.04.20:719][125]LogEditorTransaction: Undo Set Rotation
