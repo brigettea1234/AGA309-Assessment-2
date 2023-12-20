@@ -6984,3 +6984,6 @@ To disable this warning set CommonUI.Debug.CheckGameViewportClientValid=0 under 
 [2023.12.20-05.15.50:543][190]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
 [2023.12.20-05.15.50:543][190]LogModuleManager: Shutting down and abandoning module CookOnTheFly (4)
 [2023.12.20-05.15.50:543][190]LogModuleManager: Shutting down and abandoning module StorageServerClient (2)
+[2023.12.20-05.16.07:306][190]LogD3D12RHI: ~FD3D12DynamicRHI
+[2023.12.20-05.16.07:372][190]LogExit: Exiting.
+[2023.12.20-05.16.07:400][190]Log file closed, 12/20/23 16:16:07
